@@ -14,3 +14,5 @@ GA4 loads only on the production domain after visitor opt-in. No input text, par
 Links encode a snapshot; recipients can see its contents. They are not synchronized or authenticated. Local records are not verified rankings.
 
 Coupang channel registration is pending: profile read/update failed in the provider UI. Affiliate banners remain disabled until persistent registration is verified (`coupang.channelRegistered`).
+
+Official network banner artwork is copied unchanged from MODU TT `/brand/`, Tools `/ko/promo/`, and Games `/ko/promote/`. Source URLs are recorded in `public/banners/sources.json`. Desktop rails use 160×600 assets; mobile uses the official 320×100 variants.

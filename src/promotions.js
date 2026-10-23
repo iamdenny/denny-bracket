@@ -48,70 +48,26 @@ const labels = {
     "Desactivar anuncios",
   ],
 };
-const data = [
-  [
-    "tools",
-    "Everyday Tools",
-    "✳",
-    [
-      "Useful tools, one click away.",
-      "생활 속 필요한 도구를 한곳에.",
-      "毎日に役立つツール。",
-      "Herramientas para cada día.",
-    ],
-  ],
-  [
-    "games",
-    "Denny Games",
-    "✚",
-    [
-      "Your next play break.",
-      "설치 없이, 바로 즐기는 웹게임.",
-      "インストール不要のゲーム。",
-      "Juega sin instalar nada.",
-    ],
-  ],
-  [
-    "modutt",
-    "MODU TT",
-    "◉",
-    [
-      "Table tennis, together.",
-      "탁구 기록부터 대회까지.",
-      "卓球の記録から大会まで。",
-      "Tu comunidad de tenis de mesa.",
-    ],
-  ],
-  [
-    "print",
-    "Denny Print",
-    "▧",
-    [
-      "Create, print, enjoy.",
-      "만들고 출력하는 즐거움.",
-      "作って印刷しよう。",
-      "Crea e imprime.",
-    ],
-  ],
-];
+const assets = {
+  tools: { name: "Everyday Tools", wide: ["tools-wide.png",1500,500], card: ["tools-card.png",1200,628] },
+  games: { name: "Denny Games", wide: ["games-wide.png",970,250], rail: ["games-rail.png",160,600], mobile: ["games-mobile.png",320,100], card: ["games-card.png",300,250] },
+  modutt: { name: "MODU TT", wide: ["modutt-wide.svg",1200,300], rail: ["modutt-rail.svg",160,600], mobile: ["modutt-mobile.svg",320,100], card: ["modutt-card.svg",300,250] },
+};
 export function promotionParts(lang, kind, config) {
-  const index = ["en", "ko", "ja", "es"].indexOf(lang),
-    t = labels[lang];
-  const card = (id) => {
-    const d = data.find((x) => x[0] === id);
-    const href =
-      id === "modutt"
-        ? "https://modutt.kr/"
-        : `https://${id}.iamdenny.com/${lang === "es" && ["tools", "games"].includes(id) ? "en" : lang}/`;
-    return `<a class="promo-card promo-${id}" href="${href}?utm_source=denny-${kind}&amp;utm_medium=banner&amp;utm_campaign=network" target="_blank" rel="noopener noreferrer"><span class="promo-label">${t[0]} · ${d[1]}</span><span class="promo-symbol" aria-hidden="true">${d[2]}</span><strong>${d[1]}</strong><span>${d[3][index]}</span><span class="promo-cta">${t[2]} ↗</span></a>`;
+  const t = labels[lang];
+  const card = (id, shape = "wide") => {
+    const d = assets[id], [file,width,height] = d[shape];
+    const href = id === "modutt" ? "https://modutt.kr/" : `https://${id}.iamdenny.com/${lang === "es" ? "en" : lang}/`;
+    const mobile = shape === "rail" ? `<source media="(max-width: 899px)" srcset="/banners/${d.mobile[0]}" width="${d.mobile[1]}" height="${d.mobile[2]}">` : "";
+    return `<a class="official-banner official-${shape}" href="${href}?utm_source=denny-${kind}&amp;utm_medium=banner&amp;utm_campaign=network" target="_blank" rel="noopener noreferrer"><span class="promo-label">${t[0]} · ${d.name}</span><picture>${mobile}<img src="/banners/${file}" width="${width}" height="${height}" alt="${d.name} — ${t[2]}" loading="${shape === "wide" ? "eager" : "lazy"}" decoding="async"></picture></a>`;
   };
   const affiliate = config.coupang?.channelRegistered === true ? `<aside class="affiliate-banner"><span class="promo-label">${t[0]} · ${t[3]}</span><div class="affiliate-inner"><span class="promo-symbol" aria-hidden="true">⌘</span><div><strong>${t[5]}</strong><p>${t[6]}</p></div><a href="https://link.coupang.com/a/hLh0ZMTttc" target="_blank" rel="sponsored nofollow noopener noreferrer">${t[4]} ↗</a></div></aside>` : "";
   const ad = `<aside class="network-ad" aria-label="${t[0]} · Adsterra"><span class="promo-label">${t[0]} · Adsterra</span><div class="ad-surface" data-network-ad><div class="ad-explanation"><strong>Adsterra</strong><p>${t[8]}</p><button class="secondary" data-ads-allow>${t[7]}</button></div></div><button class="quiet" data-ads-off hidden>${t[9]}</button><span class="ad-status" role="status"></span></aside>`;
   return {
     top: `<section class="promo-top" aria-label="${t[1]}">${card("tools")}${card("games")}${card("modutt")}</section>`,
-    left: `<aside class="promo-rail promo-left" aria-label="${t[1]}">${card("tools")}${card("print")}</aside>`,
-    right: `<aside class="promo-rail promo-right" aria-label="${t[1]}">${card("games")}${card("modutt")}</aside>`,
-    bottom: `<section class="promo-bottom" aria-label="${t[0]}">${ad}<div>${affiliate}${card("print")}</div></section>`,
+    left: `<aside class="promo-rail promo-left" aria-label="${t[1]}">${card("games", "rail")}</aside>`,
+    right: `<aside class="promo-rail promo-right" aria-label="${t[1]}">${card("modutt", "rail")}</aside>`,
+    bottom: `<section class="promo-bottom" aria-label="${t[0]}">${ad}<div class="official-bottom-grid">${affiliate}${card("tools", "card")}${card("games", "card")}${card("modutt", "card")}</div></section>`,
     affiliate,
   };
 }

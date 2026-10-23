@@ -298,3 +298,23 @@
     transform: none;
   }
 }
+
+/* Official, unmodified artwork from each service's public promotion kit. */
+.official-banner { display:block; min-width:0; text-decoration:none; }
+.official-banner .promo-label { margin:0 0 7px; }
+.official-banner picture { display:block; }
+.official-banner img { display:block; width:100%; height:auto; border-radius:8px; }
+.official-banner:hover img { outline:2px solid var(--line); outline-offset:3px; }
+.official-banner:focus-visible { outline:3px solid currentColor; outline-offset:5px; }
+.promo-top { align-items:center; }
+.promo-rail { align-items:center; }
+.official-rail { width:160px; max-width:100%; }
+.official-bottom-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; align-items:center; }
+.official-bottom-grid .affiliate-banner { grid-column:1/-1; }
+@media(max-width:899px) {
+  .promo-top { grid-template-columns:1fr; max-width:480px; gap:16px; }
+  .promo-rail { display:block; }
+  .official-rail { width:320px; margin-inline:auto; }
+  .official-rail img { aspect-ratio:320/100; }
+  .official-bottom-grid { grid-template-columns:1fr; max-width:400px; margin-inline:auto; gap:24px; }
+}
