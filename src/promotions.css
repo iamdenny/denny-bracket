@@ -322,3 +322,20 @@
 .tool-shortcut { max-width:1720px; margin:14px auto 0; padding-inline:24px; text-align:right; }
 .tool-shortcut a { display:inline-block; min-height:44px; padding:10px 16px; border:1px solid var(--line); border-radius:99px; background:var(--paper, #fff); font-weight:700; text-decoration:none; }
 @media print { .tool-shortcut { display:none; } }
+
+/* Keep all official banners reachable without pushing the mobile tool away. */
+@media (max-width: 899px) {
+  .promo-top {
+    width: 100%;
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 85%;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    scroll-padding-inline: 20px;
+    padding-block: 6px 12px;
+    align-items: start;
+  }
+  .promo-top > .official-banner { scroll-snap-align: start; }
+  .promo-top:focus-visible { outline: 3px solid var(--accent, #226b58); outline-offset: -3px; }
+}

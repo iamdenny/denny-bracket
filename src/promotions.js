@@ -64,7 +64,7 @@ export function promotionParts(lang, kind, config) {
   const affiliate = config.coupang?.channelRegistered === true ? `<aside class="affiliate-banner"><span class="promo-label">${t[0]} · ${t[3]}</span><div class="affiliate-inner"><span class="promo-symbol" aria-hidden="true">⌘</span><div><strong>${t[5]}</strong><p>${t[6]}</p></div><a href="https://link.coupang.com/a/hLh0ZMTttc" target="_blank" rel="sponsored nofollow noopener noreferrer">${t[4]} ↗</a></div></aside>` : "";
   const ad = `<aside class="network-ad" aria-label="${t[0]} · Adsterra"><span class="promo-label">${t[0]} · Adsterra</span><div class="ad-surface" data-network-ad><div class="ad-explanation"><strong>Adsterra</strong><p>${t[8]}</p><button class="secondary" data-ads-allow>${t[7]}</button></div></div><button class="quiet" data-ads-off hidden>${t[9]}</button><span class="ad-status" role="status"></span></aside>`;
   return {
-    top: `<section class="promo-top" aria-label="${t[1]}">${card("tools")}${card("games")}${card("modutt")}</section>`,
+    top: `<section class="promo-top" tabindex="0" aria-label="${t[1]}">${card("tools")}${card("games")}${card("modutt")}</section>`,
     left: `<aside class="promo-rail promo-left" aria-label="${t[1]}">${card("games", "rail")}</aside>`,
     right: `<aside class="promo-rail promo-right" aria-label="${t[1]}">${card("modutt", "rail")}</aside>`,
     bottom: `<section class="promo-bottom" aria-label="${t[0]}">${ad}<div class="official-bottom-grid">${affiliate}${card("tools", "card")}${card("games", "card")}${card("modutt", "card")}</div></section>`,
