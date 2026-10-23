@@ -1,4 +1,12 @@
 {
   "kind": "bracket",
-  "measurementId": "G-4LJNB8S5D3"
+  "measurementId": "G-4LJNB8S5D3",
+  "adsterra": {
+    "approved": true,
+    "key": "1b39577b053b1b2a2919538762ed28de",
+    "unitId": 31878940
+  },
+  "coupang": {
+    "channelRegistered": false
+  }
 }
