@@ -1,3 +1,4 @@
+import { discovery, related } from "./discovery.mjs";
 import { expandedPresets } from "./catalog.mjs";
 import { promotionParts } from "../src/promotions.js";
 import fs from "node:fs";
@@ -48,8 +49,8 @@ function app(lang, p) {
     body = `<div class="tournament-controls"><div><label for="entries">${t("participants")}</label><textarea id="entries" spellcheck="false" maxlength="3904">${defaults(lang, p).map(e).join("\n")}</textarea></div><div class="tournament-settings"><div><label for="format">${t("format")}</label><select id="format"><option value="knockout">${t("knockout")}</option><option value="league">${t("league")}</option></select></div><label class="row" for="seed"><input type="checkbox" id="seed">${t("seed")}</label><button id="generate">${t("generate")} ↗</button><div class="stats-inline"><span><b id="player-count">${p.count || 8}</b> ${t("participants").split(" ·")[0]}</span><span><b id="round-count">3</b> ${t("round")}</span></div></div></div><div class="tournament-toolbar"><div class="row"><button id="undo" class="secondary" disabled>↶ ${t("undo")}</button><button id="redo" class="secondary" disabled>↷ ${t("redo")}</button><label class="toggle" for="pending-only"><input type="checkbox" id="pending-only">${t("pending")}</label></div><p class="small">${t("undoHint")}</p><label for="match-progress">${t("matchProgress")} <span id="match-progress-text"></span></label><progress id="match-progress" max="1" value="0"></progress></div><p id="all-done" class="notice" hidden>${t("allDone")}</p><div id="board" class="board" role="region" aria-label="${t("format")}" tabindex="0"></div><div class="row" style="padding:0 24px 24px"><button id="next-round">${t("nextRound")} →</button></div><div class="champion" id="champion" hidden><span>${t("champion")}</span><strong id="champion-name"></strong></div><div id="standings-wrap" style="padding:24px" hidden><div class="table-wrap"><table><caption>${t("standings")}</caption><thead><tr><th scope="col">#</th><th scope="col">${t("team")}</th><th scope="col">${t("played")}</th><th scope="col">${t("wins")}</th><th scope="col">${t("diff")}</th><th scope="col">${t("points")}</th></tr></thead><tbody id="standings-body"></tbody></table></div><p class="small">${t("leagueRules")}</p></div><p class="small" style="padding:0 24px">${t("locked")}</p>`;
   return `<section class="app" id="tool" tabindex="-1" aria-label="${site.name}"><div class="app-top"><h2>${p.title ? e(L(p.title, lang)) : site.name}</h2><div class="row"><span class="pill">${t("local")}</span><button id="focus-mode" class="secondary" aria-pressed="false">${t("focus")}</button></div></div><div class="workspace-intro"><span>${t("workspaceHint")}</span><p id="tool-feedback" role="status"></p></div>${body}${kind === "spin" ? `<section id="batch-results" class="result-panel" hidden><h3>${t("batchTitle")}</h3><ol id="batch-list" class="winner-grid"></ol><button id="export-draw" class="secondary">${t("exportDraw")}</button></section><section id="teams-panel" class="result-panel" hidden><div class="row between"><h3>${t("teams")}</h3><button id="export-teams" class="secondary">${t("exportTeams")}</button></div><div id="team-results" class="team-grid"></div></section>` : ""}<div class="app-bottom">${actions}</div></section>`;
 }
-function cards(lang, full = false) {
-  const t = translator(lang), items = full ? presets[kind] : presets[kind].slice(0, 8);
+function cards(lang, full = false, current = null) {
+  const t = translator(lang), items = full ? presets[kind] : current ? related(presets[kind], current, 8) : presets[kind].slice(0, 8);
   const search = {en:"Search activities",ko:"콘텐츠 검색",ja:"コンテンツを検索",es:"Buscar actividades"}[lang];
   const more = {en:"Browse all activities",ko:"전체 콘텐츠 보기",ja:"すべてを見る",es:"Ver todas las actividades"}[lang];
   return `<section class="subsection"><div class="section-title"><h2>${t("pick")}</h2><span>${presets[kind].length}</span></div>${full ? `<label for="catalog-search">${search}</label><input type="search" id="catalog-search" class="catalog-search" autocomplete="off" aria-controls="catalog-grid"><p id="catalog-count" class="small" role="status">${items.length} / ${items.length}</p>` : ""}<div class="cards" ${full ? 'id="catalog-grid"' : ""}>${items.map((p, i) => `<a class="card" href="${local(lang, "tools/" + p.slug + "/")}"><span class="card-icon" aria-hidden="true">${["✳", "↗", "◷", "⌘", "⤢", "≋", "↻", "＋"][i % 8]}</span><h3>${e(L(p.title, lang))}</h3><p>${e(L(p.desc, lang))}</p></a>`).join("")}</div>${full ? "" : `<p><a class="button secondary" href="${local(lang,"explore/")}">${more} (${presets[kind].length}) →</a></p>`}</section>`;
@@ -174,7 +175,7 @@ for (const lang of langs) {
     "",
     L(site.title, lang),
     L(site.description, lang),
-    app(lang, {}) + cards(lang) + how(lang),
+    app(lang, {}) + discovery(kind,lang,presets[kind],p=>local(lang,"tools/"+p.slug+"/")) + cards(lang) + how(lang),
     {},
   );
   page(
@@ -212,7 +213,7 @@ for (const lang of langs) {
       "tools/" + p.slug + "/",
       L(p.title, lang),
       L(p.desc, lang) + " " + L(site.description, lang),
-      app(lang, p) + presetNotes(lang, p) + how(lang) + cards(lang),
+      app(lang, p) + presetNotes(lang, p) + how(lang) + cards(lang, false, p),
       p,
     );
 }
@@ -263,3 +264,7 @@ write(
 );
 write("site-manifest.json", json({ urls, activities: presets[kind].map(p => p.slug) }));
 console.log(`${site.name}: ${urls.length} localized pages built`);
+
+const indexNowKey = fs.readFileSync("indexnow-key.txt", "utf8").trim();
+if (!/^[a-f0-9]{32}$/.test(indexNowKey)) throw Error("Invalid IndexNow key");
+write(indexNowKey + ".txt", indexNowKey);

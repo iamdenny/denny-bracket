@@ -67,6 +67,7 @@ const events = new Set([
   "export_result",
   "print_result",
   "select_preset",
+  "select_discovery",
 ]);
 window.dennyTrack = (event) => {
   if (valid && loaded && choice === "granted" && events.has(event))
@@ -93,3 +94,5 @@ for (const b of document.querySelectorAll("[data-consent]"))
   };
 if (valid && choice === null) panel.hidden = false;
 apply();
+
+document.addEventListener("click",event=>{if(event.target.closest("[data-discovery-link]")) window.dennyTrack("select_discovery");});
