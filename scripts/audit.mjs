@@ -9,6 +9,13 @@ for (const u of urls) {
     html = fs.readFileSync(file, "utf8"),
     title = html.match(/<title>(.*?)<\/title>/s)?.[1];
   assert(title);
+  assert(!title.includes("\n"), "search titles must not contain hero line breaks");
+  assert.equal(html.match(/property="og:title" content="([^"]+)"/)?.[1], title);
+  assert.equal(html.match(/name="twitter:title" content="([^"]+)"/)?.[1], title);
+  const description = html.match(/name="description" content="([^"]+)"/)?.[1];
+  assert(description, "missing description");
+  assert.equal(html.match(/name="twitter:description" content="([^"]+)"/)?.[1], description);
+  assert(html.includes('rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg"'));
   assert(!seen.has(title), "duplicate title " + title);
   seen.add(title);
   assert(html.includes(`rel="canonical" href="${u}"`));

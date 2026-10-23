@@ -74,7 +74,28 @@ const privacy = [
     "Contacta con Denny Lim en hi.iamdenny@gmail.com. Los anuncios Adsterra se cargan con permiso y pueden procesar cookies y datos del dispositivo y conexión. Puedes retirar el permiso en el anuncio. Los enlaces Coupang generan comisiones por compras elegibles. Los demás banners promocionan nuestros servicios. No enviamos tus entradas.",
   ],
 ];
+const homeSearchTitles = {
+  "spin": {
+    "en": "Free Random Name Picker & Team Generator",
+    "ko": "무료 이름 추첨 룰렛·팀 나누기",
+    "ja": "無料ルーレット抽選・チーム分け",
+    "es": "Ruleta de nombres y generador de equipos gratis"
+  },
+  "type": {
+    "en": "Free Typing Test & Typing Practice",
+    "ko": "무료 타자 연습·타자 속도 테스트",
+    "ja": "無料タイピング練習・速度テスト",
+    "es": "Test de velocidad y práctica de mecanografía gratis"
+  },
+  "bracket": {
+    "en": "Free Tournament Bracket & Round-Robin Generator",
+    "ko": "무료 토너먼트 대진표·리그 일정표 만들기",
+    "ja": "無料トーナメント表・総当たり対戦表作成",
+    "es": "Generador de cuadros de torneo y ligas gratis"
+  }
+};
 function page(lang, p, title, desc, body, preset = null, noindex = false) {
+  const searchTitle = p ? title : homeSearchTitles[kind][lang];
   const t = translator(lang),
     url = origin + local(lang, p),
     graph = [
@@ -96,7 +117,7 @@ function page(lang, p, title, desc, body, preset = null, noindex = false) {
         "@type": "WebPage",
         "@id": url + "#page",
         url,
-        name: title,
+        name: searchTitle,
         description: desc,
         inLanguage: lang,
         isPartOf: { "@id": origin + "/#website" },
@@ -107,7 +128,7 @@ function page(lang, p, title, desc, body, preset = null, noindex = false) {
   if (preset)
     graph.push({
       "@type": "WebApplication",
-      name: title,
+      name: searchTitle,
       url,
       description: desc,
       applicationCategory:
@@ -127,11 +148,11 @@ function page(lang, p, title, desc, body, preset = null, noindex = false) {
           name: site.name,
           item: origin + local(lang),
         },
-        { "@type": "ListItem", position: 2, name: title, item: url },
+        { "@type": "ListItem", position: 2, name: searchTitle, item: url },
       ],
     });
   const promos = promotionParts(lang, kind, config);
-  const bodyText = `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${e(title)} | ${site.name}</title><meta name="description" content="${e(desc)}"><meta name="robots" content="${noindex ? "noindex" : "index,follow,max-image-preview:large"}"><link rel="canonical" href="${url}">${langs.map((l) => `<link rel="alternate" hreflang="${l}" href="${origin + local(l, p)}">`).join("")}<link rel="alternate" hreflang="x-default" href="${origin + local("en", p)}"><meta property="og:title" content="${e(title)}"><meta property="og:description" content="${e(desc)}"><meta property="og:url" content="${url}"><meta property="og:type" content="website"><meta property="og:image" content="${origin}/social.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${origin}/social.png"><meta name="theme-color" content="${kind === "spin" ? "#754bce" : kind === "type" ? "#226b58" : "#3652c7"}"><meta name="google-adsense-account" content="ca-pub-3539037484563455">${config.naverVerification ? `<meta name="naver-site-verification" content="${e(config.naverVerification)}">` : ""}${config.bingVerification ? `<meta name="msvalidate.01" content="${e(config.bingVerification)}">` : ""}<link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/promotions.css"><script type="application/ld+json">${json({ "@context": "https://schema.org", "@graph": graph })}</script></head><body class="${kind}"><a class="skip" href="#main">${t("skip")}</a><header class="topbar"><a class="brand" href="${local(lang)}"><span class="brand-mark" aria-hidden="true">${{ spin: "✳", type: "t", bracket: "↗" }[kind]}</span>denny ${kind}<span style="color:var(--accent)">.</span></a><nav aria-label="${t("explore")}"><a href="${local(lang, "explore/")}">${t("explore")}</a><a href="${local(lang, "guide/")}">${t("guide")}</a><label for="language" hidden>Language</label><select id="language" class="locale" aria-label="Language">${langs.map((l) => `<option value="${local(l, p)}" ${l === lang ? "selected" : ""}>${languageNames[l]}</option>`).join("")}</select></nav></header>${preset ? `<div class="tool-shortcut"><a href="#tool">${{en:"Jump to the tool",ko:"도구 바로 사용하기",ja:"ツールを使う",es:"Ir a la herramienta"}[lang]} ↓</a></div>` : ""}${promos.top}<div class="banner-layout">${promos.left}<main class="banner-main" id="main" tabindex="-1"><section class="hero"><div><p class="eyebrow">${e(L(site.tag, lang))}</p><h1>${e(title)}</h1></div><div class="intro"><p>${e(desc)}</p><span class="badge">${t("free")}</span></div></section><div class="container">${promos.affiliate}${preset ? `<noscript><p class="notice">${t("nojs")}</p></noscript>` : ""}${body}</div></main>${promos.right}</div>${promos.bottom}<footer class="site-footer"><span>© 2026 ${site.name} · Denny Lim</span><nav aria-label="Footer"><a href="${local(lang, "about/")}">${t("about")}</a><a href="${local(lang, "privacy/")}">${t("privacy")}</a><button class="quiet" id="analytics-settings">${t("settings")}</button><a href="https://github.com/iamdenny/denny-${kind}">${t("source")} ↗</a></nav></footer><section id="consent" class="consent" aria-label="${t("settings")}" hidden><p>${t("consent")}</p><div class="actions"><button class="secondary" data-consent="denied">${t("decline")}</button><button data-consent="granted">${t("allow")}</button></div></section><script id="config" type="application/json">${json({ ...config, domain: site.domain, lang, preset: preset || {}, names: defaults(lang, preset || {}) })}</script><script type="module" src="/site.js"></script><script type="module" src="/analytics.js"></script><script type="module" src="/network-ads.js"></script>${preset ? `<script type="module" src="/${kind}.js"></script>` : ""}</body></html>`;
+  const bodyText = `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${e(searchTitle)} | ${site.name}</title><meta name="description" content="${e(desc)}"><meta name="robots" content="${noindex ? "noindex" : "index,follow,max-image-preview:large"}"><link rel="canonical" href="${url}">${langs.map((l) => `<link rel="alternate" hreflang="${l}" href="${origin + local(l, p)}">`).join("")}<link rel="alternate" hreflang="x-default" href="${origin + local("en", p)}"><meta property="og:title" content="${e(searchTitle)} | ${site.name}"><meta property="og:description" content="${e(desc)}"><meta property="og:url" content="${url}"><meta property="og:type" content="website"><meta property="og:image" content="${origin}/social.png"><meta name="twitter:title" content="${e(searchTitle)} | ${site.name}"><meta name="twitter:description" content="${e(desc)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${origin}/social.png"><meta name="theme-color" content="${kind === "spin" ? "#754bce" : kind === "type" ? "#226b58" : "#3652c7"}"><meta name="google-adsense-account" content="ca-pub-3539037484563455">${config.naverVerification ? `<meta name="naver-site-verification" content="${e(config.naverVerification)}">` : ""}${config.bingVerification ? `<meta name="msvalidate.01" content="${e(config.bingVerification)}">` : ""}<link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg"><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/promotions.css"><script type="application/ld+json">${json({ "@context": "https://schema.org", "@graph": graph })}</script></head><body class="${kind}"><a class="skip" href="#main">${t("skip")}</a><header class="topbar"><a class="brand" href="${local(lang)}"><span class="brand-mark" aria-hidden="true">${{ spin: "✳", type: "t", bracket: "↗" }[kind]}</span>denny ${kind}<span style="color:var(--accent)">.</span></a><nav aria-label="${t("explore")}"><a href="${local(lang, "explore/")}">${t("explore")}</a><a href="${local(lang, "guide/")}">${t("guide")}</a><label for="language" hidden>Language</label><select id="language" class="locale" aria-label="Language">${langs.map((l) => `<option value="${local(l, p)}" ${l === lang ? "selected" : ""}>${languageNames[l]}</option>`).join("")}</select></nav></header>${preset ? `<div class="tool-shortcut"><a href="#tool">${{en:"Jump to the tool",ko:"도구 바로 사용하기",ja:"ツールを使う",es:"Ir a la herramienta"}[lang]} ↓</a></div>` : ""}${promos.top}<div class="banner-layout">${promos.left}<main class="banner-main" id="main" tabindex="-1"><section class="hero"><div><p class="eyebrow">${e(L(site.tag, lang))}</p><h1>${e(title)}</h1></div><div class="intro"><p>${e(desc)}</p><span class="badge">${t("free")}</span></div></section><div class="container">${promos.affiliate}${preset ? `<noscript><p class="notice">${t("nojs")}</p></noscript>` : ""}${body}</div></main>${promos.right}</div>${promos.bottom}<footer class="site-footer"><span>© 2026 ${site.name} · Denny Lim</span><nav aria-label="Footer"><a href="${local(lang, "about/")}">${t("about")}</a><a href="${local(lang, "privacy/")}">${t("privacy")}</a><button class="quiet" id="analytics-settings">${t("settings")}</button><a href="https://github.com/iamdenny/denny-${kind}">${t("source")} ↗</a></nav></footer><section id="consent" class="consent" aria-label="${t("settings")}" hidden><p>${t("consent")}</p><div class="actions"><button class="secondary" data-consent="denied">${t("decline")}</button><button data-consent="granted">${t("allow")}</button></div></section><script id="config" type="application/json">${json({ ...config, domain: site.domain, lang, preset: preset || {}, names: defaults(lang, preset || {}) })}</script><script type="module" src="/site.js"></script><script type="module" src="/analytics.js"></script><script type="module" src="/network-ads.js"></script>${preset ? `<script type="module" src="/${kind}.js"></script>` : ""}</body></html>`;
   write(lang + "/" + (p ? p : "") + "index.html", bodyText);
   if (!noindex) urls.push(url);
   return bodyText;
