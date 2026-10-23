@@ -77,7 +77,17 @@ function render() {
         m = rounds[r][i];
       [m.sa, m.sb] = values;
       if (mode === "knockout") m.winner = m.sa > m.sb ? m.a : m.b;
+      // Preserve unfinished scores in other matches when this match is saved.
+      const drafts = [...board.querySelectorAll("form")].filter((x) => x !== form).map((x) => ({
+        round: x.dataset.round, match: x.dataset.match,
+        values: [...x.querySelectorAll("input")].map((input) => input.value),
+      }));
       render();
+      for (const draft of drafts) {
+        const restored = board.querySelector(`form[data-round="${draft.round}"][data-match="${draft.match}"]`);
+        [...restored.querySelectorAll("input")].forEach((input, index) => { input.value = draft.values[index]; });
+      }
+      board.querySelector(`form[data-round="${r}"][data-match="${i}"] button`)?.focus({preventScroll:true});
       status(t("result"));
       track("save_score");
     };
