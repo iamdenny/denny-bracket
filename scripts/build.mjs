@@ -1,3 +1,4 @@
+import { versionStyles } from "./version-styles.mjs";
 import { discovery, related } from "./discovery.mjs";
 import { expandedPresets } from "./catalog.mjs";
 import { promotionParts } from "../src/promotions.js";
@@ -268,3 +269,5 @@ console.log(`${site.name}: ${urls.length} localized pages built`);
 const indexNowKey = fs.readFileSync("indexnow-key.txt", "utf8").trim();
 if (!/^[a-f0-9]{32}$/.test(indexNowKey)) throw Error("Invalid IndexNow key");
 write(indexNowKey + ".txt", indexNowKey);
+
+versionStyles("dist");
