@@ -339,3 +339,5 @@
   .promo-top > .official-banner { scroll-snap-align: start; }
   .promo-top:focus-visible { outline: 3px solid var(--accent, #226b58); outline-offset: -3px; }
 }
+
+@media (max-width: 899px) { .promo-top:focus-within { scroll-snap-type: none; } }
