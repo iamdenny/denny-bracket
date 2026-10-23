@@ -5,6 +5,7 @@ export const config = JSON.parse(document.querySelector("#config").textContent),
   $ = (id) => document.getElementById(id);
 export function status(text) {
   $("status").textContent = text;
+  if ($("tool-feedback")) $("tool-feedback").textContent = text;
 }
 export function track(event) {
   if (window.dennyTrack) window.dennyTrack(event);

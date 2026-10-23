@@ -52,6 +52,9 @@ function apply() {
   document.head.append(s);
 }
 const events = new Set([
+  "batch_draw",
+  "practice_missed_words",
+  "undo_tournament",
   "spin_wheel",
   "create_teams",
   "start_practice",

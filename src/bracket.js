@@ -1,3 +1,4 @@
+import { createHistory } from "./undo-history.js";
 import {
   entries,
   shuffle,
@@ -21,6 +22,14 @@ import {
 let names = config.names,
   mode = config.preset.mode || "knockout",
   rounds = [];
+const undoHistory = createHistory();
+const snapshot = () => ({ names: [...names], mode, rounds: structuredClone(rounds) });
+function restoreSnapshot(s) {
+  names = s.names; mode = s.mode; rounds = s.rounds;
+  $("entries").value = names.join("\n");
+  $("format").value = mode;
+  render();
+}
 $("entries").value = names.join("\n");
 $("format").value = mode;
 function create() {
@@ -32,6 +41,7 @@ function create() {
       (nextMode === "league" && parsed.length > 20)
     )
       throw Error();
+    undoHistory.push(snapshot());
     names = $("seed").checked ? shuffle(parsed) : parsed;
     mode = nextMode;
     rounds = mode === "league" ? roundRobin(names) : elimination(names);
@@ -44,6 +54,7 @@ function create() {
 }
 function render() {
   const board = $("board");
+  board.classList.toggle("single-round", rounds.length === 1);
   board.innerHTML = rounds
     .map(
       (round, r) =>
@@ -51,7 +62,7 @@ function render() {
           .map((m, i) => {
             const bye = m.a === null || m.b === null,
               locked = mode === "knockout" && r < rounds.length - 1;
-            return `<form class="match ${bye ? "bye" : ""}" data-round="${r}" data-match="${i}"><div class="match-top">${String(r + 1).padStart(2, "0")} / ${String(i + 1).padStart(2, "0")}${bye ? ` · ${t("bye")}` : ""}</div>${["a", "b"].map((side, k) => `<label class="player ${m.winner !== null && m.winner === m[side] ? "won" : ""}"><span>${m[side] === null ? t("bye") : escape(names[m[side]])}</span>${bye ? "<b>—</b>" : `<input aria-label="${escape(names[m[side]])} · ${t("round")} ${r + 1} · ${i + 1}" type="number" inputmode="numeric" min="0" max="999" step="1" value="${m[k ? "sb" : "sa"] ?? ""}" ${locked ? "disabled" : ""} required>`}</label>`).join("")}${!bye && !locked ? `<button class="score-save" type="submit">${t("result")}</button>` : ""}</form>`;
+            return `<form class="match ${bye ? "bye" : ""}" data-round="${r}" data-match="${i}" data-complete="${bye || (m.sa !== null && m.sb !== null)}"><div class="match-top">${String(r + 1).padStart(2, "0")} / ${String(i + 1).padStart(2, "0")}${bye ? ` · ${t("bye")}` : ""}</div>${["a", "b"].map((side, k) => `<label class="player ${m.winner !== null && m.winner === m[side] ? "won" : ""}"><span>${m[side] === null ? t("bye") : escape(names[m[side]])}</span>${bye ? "<b>—</b>" : `<input aria-label="${escape(names[m[side]])} · ${t("round")} ${r + 1} · ${i + 1}" type="number" inputmode="numeric" min="0" max="999" step="1" value="${m[k ? "sb" : "sa"] ?? ""}" ${locked ? "disabled" : ""} required>`}</label>`).join("")}${!bye && !locked ? `<button class="score-save" type="submit">${t("result")}</button>` : ""}</form>`;
           })
           .join("")}</div></section>`,
     )
@@ -75,6 +86,7 @@ function render() {
       const r = Number(form.dataset.round),
         i = Number(form.dataset.match),
         m = rounds[r][i];
+      undoHistory.push(snapshot());
       [m.sa, m.sb] = values;
       if (mode === "knockout") m.winner = m.sa > m.sb ? m.a : m.b;
       // Preserve unfinished scores in other matches when this match is saved.
@@ -87,7 +99,9 @@ function render() {
         const restored = board.querySelector(`form[data-round="${draft.round}"][data-match="${draft.match}"]`);
         [...restored.querySelectorAll("input")].forEach((input, index) => { input.value = draft.values[index]; });
       }
-      board.querySelector(`form[data-round="${r}"][data-match="${i}"] button`)?.focus({preventScroll:true});
+      const savedForm = board.querySelector(`form[data-round="${r}"][data-match="${i}"]`);
+      const focusTarget = savedForm.hidden ? board.querySelector(".match:not([hidden]) input:not(:disabled)") || $("next-round") : savedForm.querySelector("button");
+      (focusTarget?.hidden ? $("undo") : focusTarget)?.focus({preventScroll:true});
       status(t("result"));
       track("save_score");
     };
@@ -111,11 +125,37 @@ function render() {
   $("round-count").textContent =
     mode === "league" ? rounds.length : Math.ceil(Math.log2(names.length));
   $("player-count").textContent = names.length;
+  $("undo").disabled = !undoHistory.canUndo;
+  $("redo").disabled = !undoHistory.canRedo;
+  const playable = rounds.flat().filter((m) => m.a !== null && m.b !== null);
+  const completed = playable.filter((m) => m.sa !== null && m.sb !== null).length;
+  const total = mode === "knockout" ? names.length - 1 : playable.length;
+  $("match-progress").max = Math.max(1, total);
+  $("match-progress").value = completed;
+  $("match-progress-text").textContent = `${completed} / ${total}`;
+  filterMatches();
 }
+function filterMatches() {
+  const pending = $("pending-only").checked;
+  for (const match of $("board").querySelectorAll(".match")) match.hidden = pending && match.dataset.complete === "true";
+  for (const round of $("board").querySelectorAll(".round")) round.hidden = ![...round.querySelectorAll(".match")].some((match) => !match.hidden);
+  $("all-done").hidden = !pending || [...$("board").querySelectorAll(".match")].some((match) => !match.hidden);
+}
+$("pending-only").onchange = filterMatches;
+$("undo").onclick = () => {
+  const previous = undoHistory.undo(snapshot());
+  if (previous) { restoreSnapshot(previous); ($("undo").disabled ? $("redo") : $("undo")).focus({preventScroll:true}); status(t("undone")); track("undo_tournament"); }
+};
+$("redo").onclick = () => {
+  const next = undoHistory.redo(snapshot());
+  if (next) { restoreSnapshot(next); ($("redo").disabled ? $("undo") : $("redo")).focus({preventScroll:true}); status(t("redone")); }
+};
 $("generate").onclick = create;
 $("next-round").onclick = () => {
   try {
-    rounds.push(advance(rounds.at(-1)));
+    const next = advance(rounds.at(-1));
+    undoHistory.push(snapshot());
+    rounds.push(next);
     render();
     track("advance_round");
     status(t("nextRound"));
@@ -133,6 +173,7 @@ function state() {
   };
 }
 function restore(s) {
+  if (rounds.length) undoHistory.push(snapshot());
   names = s.names;
   mode = s.mode;
   rounds = s.rounds;
