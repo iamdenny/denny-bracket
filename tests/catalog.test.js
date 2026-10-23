@@ -4,9 +4,9 @@ import { presets as basePresets, passageFor } from "../src/content.js";
 import { entries, elimination, roundRobin } from "../src/core.js";
 import { expandedPresets } from "../scripts/catalog.mjs";
 const presets = Object.fromEntries(Object.entries(basePresets).map(([kind, items]) => [kind, [...items, ...expandedPresets[kind]]]));
-test("at least 50 unique activities per site with complete four-language content", () => {
+test("at least 100 unique activities per site with complete four-language content", () => {
   for (const [kind, items] of Object.entries(presets)) {
-    assert.ok(items.length >= 50);
+    assert.ok(items.length >= 100);
     assert.equal(new Set(items.map(p => p.slug)).size, items.length);
     for (const p of items) {
       for (const field of [p.title, p.desc, ...(p.guide ? [p.guide] : [])]) {
