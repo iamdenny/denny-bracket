@@ -1,8 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import assert from "node:assert/strict";
-const { urls } = JSON.parse(fs.readFileSync("dist/site-manifest.json")),
+const { urls, activities } = JSON.parse(fs.readFileSync("dist/site-manifest.json")),
   seen = new Set();
+assert(activities.length >= 50, "at least 50 activities, excluding translations");
+assert.equal(new Set(activities).size, activities.length);
 for (const u of urls) {
   const pathname = new URL(u).pathname,
     file = path.join("dist", pathname, "index.html"),

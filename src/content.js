@@ -608,6 +608,7 @@ export const paragraphs = {
   ],
 };
 export function passageFor(lang, preset = {}) {
+  if (preset.text) return (preset.text[["en", "ko", "ja", "es"].indexOf(lang)] + " ").repeat(12).trim();
   if (preset.level === "numbers")
     return Array.from(
       { length: 30 },
