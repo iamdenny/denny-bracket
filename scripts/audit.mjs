@@ -3,7 +3,7 @@ import path from "node:path";
 import assert from "node:assert/strict";
 const { urls, activities } = JSON.parse(fs.readFileSync("dist/site-manifest.json")),
   seen = new Set();
-assert(activities.length >= 100, "at least 100 activities, excluding translations");
+assert(activities.length === 200, "at least 100 activities, excluding translations");
 assert.equal(new Set(activities).size, activities.length);
 for (const u of urls) {
   const pathname = new URL(u).pathname,

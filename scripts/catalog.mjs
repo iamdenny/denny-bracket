@@ -1,3 +1,4 @@
+import { activityExpansion } from "./activity-expansion.mjs";
 export const expandedPresets = {
   "spin": [
     {
@@ -14402,3 +14403,5 @@ export const expandedPresets = {
     }
   ]
 };
+
+expandedPresets.bracket.push(...activityExpansion);

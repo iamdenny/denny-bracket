@@ -1,3 +1,4 @@
+import { versionModules } from "./version-modules.mjs";
 import { versionStyles } from "./version-styles.mjs";
 import { discovery, related } from "./discovery.mjs";
 import { expandedPresets } from "./catalog.mjs";
@@ -51,7 +52,7 @@ function app(lang, p) {
   return `<section class="app" id="tool" tabindex="-1" aria-label="${site.name}"><div class="app-top"><h2>${p.title ? e(L(p.title, lang)) : site.name}</h2><div class="row"><span class="pill">${t("local")}</span><button id="focus-mode" class="secondary" aria-pressed="false">${t("focus")}</button></div></div><div class="workspace-intro"><span>${t("workspaceHint")}</span><p id="tool-feedback" role="status"></p></div>${body}${kind === "spin" ? `<section id="batch-results" class="result-panel" hidden><h3>${t("batchTitle")}</h3><ol id="batch-list" class="winner-grid"></ol><button id="export-draw" class="secondary">${t("exportDraw")}</button></section><section id="teams-panel" class="result-panel" hidden><div class="row between"><h3>${t("teams")}</h3><button id="export-teams" class="secondary">${t("exportTeams")}</button></div><div id="team-results" class="team-grid"></div></section>` : ""}<div class="app-bottom">${actions}</div></section>`;
 }
 function cards(lang, full = false, current = null) {
-  const t = translator(lang), items = full ? presets[kind] : current ? related(presets[kind], current, 8) : presets[kind].slice(0, 8);
+  const t = translator(lang), items = full ? [...presets[kind].slice(-100), ...presets[kind].slice(0,-100)] : current ? related(presets[kind], current, 8) : presets[kind].slice(-100).filter((p,i)=>i%5===0).slice(0,8);
   const search = {en:"Search activities",ko:"콘텐츠 검색",ja:"コンテンツを検索",es:"Buscar actividades"}[lang];
   const more = {en:"Browse all activities",ko:"전체 콘텐츠 보기",ja:"すべてを見る",es:"Ver todas las actividades"}[lang];
   return `<section class="subsection"><div class="section-title"><h2>${t("pick")}</h2><span>${presets[kind].length}</span></div>${full ? `<label for="catalog-search">${search}</label><input type="search" id="catalog-search" class="catalog-search" autocomplete="off" aria-controls="catalog-grid"><p id="catalog-count" class="small" role="status">${items.length} / ${items.length}</p>` : ""}<div class="cards" ${full ? 'id="catalog-grid"' : ""}>${items.map((p, i) => `<a class="card" href="${local(lang, "tools/" + p.slug + "/")}"><span class="card-icon" aria-hidden="true">${["✳", "↗", "◷", "⌘", "⤢", "≋", "↻", "＋"][i % 8]}</span><h3>${e(L(p.title, lang))}</h3><p>${e(L(p.desc, lang))}</p></a>`).join("")}</div>${full ? "" : `<p><a class="button secondary" href="${local(lang,"explore/")}">${more} (${presets[kind].length}) →</a></p>`}</section>`;
@@ -60,7 +61,9 @@ function presetNotes(lang, p) {
   if (!p.guide) return "";
   const vocabulary = p.vocabulary || p.list;
   const label = {en:"Inside this activity",ko:"이 콘텐츠 활용하기",ja:"このコンテンツの使い方",es:"Cómo aprovechar esta actividad"}[lang];
-  return `<article class="article"><h2>${label}</h2><p>${e(L(p.guide,lang))}</p>${vocabulary ? `<ul class="vocabulary-list">${L(vocabulary,lang).map(word=>`<li>${e(word)}</li>`).join("")}</ul>` : ""}</article>`;
+  const headings={en:["Example round plan","Round","Matches","Time slots","Minutes","Based on the preset participant count; changing the entries does not update this planning table."],ko:["라운드 운영 예시","라운드","경기 수","시간 슬롯","분","기본 참가 인원 기준입니다. 명단을 수정해도 이 계획표는 바뀌지 않습니다."],ja:["ラウンド計画例","ラウンド","試合数","時間枠","分","初期参加数に基づく表です。名簿を変えてもこの表は更新されません。"],es:["Plan de rondas de ejemplo","Ronda","Partidos","Turnos","Minutos","Se basa en el número inicial; cambiar participantes no actualiza esta tabla."]}[lang];
+  const plan=p.plan?`<section><h3>${headings[0]}</h3><p>${headings[5]}</p><div class="table-wrap"><table><thead><tr>${headings.slice(1,5).map(x=>`<th scope="col">${x}</th>`).join("")}</tr></thead><tbody>${p.plan.roundMatches.map((n,i)=>`<tr><th scope="row">${i+1}</th><td>${n}</td><td>${Math.ceil(n/p.plan.courts)}</td><td>${Math.ceil(n/p.plan.courts)*p.plan.matchMinutes}</td></tr>`).join("")}</tbody></table></div></section>`:"";
+  return `<article class="article"><h2>${label}</h2><p>${e(L(p.guide,lang))}</p>${plan}${vocabulary ? `<ul class="vocabulary-list">${L(vocabulary,lang).map(word=>`<li>${e(word)}</li>`).join("")}</ul>` : ""}</article>`;
 }
 function how(lang) {
   const t = translator(lang);
@@ -270,4 +273,5 @@ const indexNowKey = fs.readFileSync("indexnow-key.txt", "utf8").trim();
 if (!/^[a-f0-9]{32}$/.test(indexNowKey)) throw Error("Invalid IndexNow key");
 write(indexNowKey + ".txt", indexNowKey);
 
+versionModules("dist");
 versionStyles("dist");
