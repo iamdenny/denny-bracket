@@ -49,7 +49,7 @@ const labels = {
   ],
 };
 const assets = {
-  tools: { name: "Everyday Tools", wide: ["tools-wide.png",1500,500], card: ["tools-card.png",1200,628] },
+  tools: { name: "Everyday Tools", wide: ["tools-wide.webp",1500,500], card: ["tools-card.webp",1200,628] },
   games: { name: "Denny Games", wide: ["games-wide.png",970,250], rail: ["games-rail.png",160,600], mobile: ["games-mobile.png",320,100], card: ["games-card.png",300,250] },
   modutt: { name: "MODU TT", wide: ["modutt-wide.svg",1200,300], rail: ["modutt-rail.svg",160,600], mobile: ["modutt-mobile.svg",320,100], card: ["modutt-card.svg",300,250] },
 };
