@@ -318,3 +318,7 @@
   .official-rail img { aspect-ratio:320/100; }
   .official-bottom-grid { grid-template-columns:1fr; max-width:400px; margin-inline:auto; gap:24px; }
 }
+
+.tool-shortcut { max-width:1720px; margin:14px auto 0; padding-inline:24px; text-align:right; }
+.tool-shortcut a { display:inline-block; min-height:44px; padding:10px 16px; border:1px solid var(--line); border-radius:99px; background:var(--paper, #fff); font-weight:700; text-decoration:none; }
+@media print { .tool-shortcut { display:none; } }
