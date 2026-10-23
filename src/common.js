@@ -1,7 +1,79 @@
-import {translator} from './i18n.js';import {encodeState,decodeState,safeState} from './core.js';
-export const config=JSON.parse(document.querySelector('#config').textContent),t=translator(config.lang),$=id=>document.getElementById(id);
-export function status(text){$('status').textContent=text}
-export function track(event){if(window.dennyTrack)window.dennyTrack(event)}
-export function readShared(){if(!location.hash.startsWith('#s='))return null;try{return safeState(config.kind,decodeState(location.hash))}catch{status(t('badLink'));return null}}
-export function download(name,text,type='text/csv;charset=utf-8'){const url=URL.createObjectURL(new Blob([text],{type})),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);track('export_result')}
-export function wireStorage(getState,restore){const key='denny-'+config.kind+'-session-v1';$('save')?.addEventListener('click',()=>{try{localStorage.setItem(key,JSON.stringify(getState()));status(t('saved'));track('save_session')}catch{status(t('storageError'))}});$('load')?.addEventListener('click',()=>{try{const raw=localStorage.getItem(key);if(!raw){status(t('missing'));return}restore(safeState(config.kind,JSON.parse(raw)));status(t('saved'))}catch{status(t('badLink'))}});$('share')?.addEventListener('click',async()=>{try{const state=getState(),u=location.origin+location.pathname+'#s='+encodeState(state);if(u.length>24000)throw Error();try{await navigator.clipboard.writeText(u);status(t('copied'))}catch{const box=$('share-fallback');box.hidden=false;box.value=u;box.focus();box.select();status(t('copyError'))}track('share_snapshot')}catch{status(t('invalid'))}});$('print')?.addEventListener('click',()=>{track('print_result');window.print()})}
+import { translator } from "./i18n.js";
+import { encodeState, decodeState, safeState } from "./core.js";
+export const config = JSON.parse(document.querySelector("#config").textContent),
+  t = translator(config.lang),
+  $ = (id) => document.getElementById(id);
+export function status(text) {
+  $("status").textContent = text;
+}
+export function track(event) {
+  if (window.dennyTrack) window.dennyTrack(event);
+}
+export function readShared() {
+  if (!location.hash.startsWith("#s=")) return null;
+  try {
+    return safeState(config.kind, decodeState(location.hash));
+  } catch {
+    status(t("badLink"));
+    return null;
+  }
+}
+export function download(name, text, type = "text/csv;charset=utf-8") {
+  const url = URL.createObjectURL(new Blob([text], { type })),
+    a = document.createElement("a");
+  a.href = url;
+  a.download = name;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  track("export_result");
+}
+export function wireStorage(getState, restore) {
+  const key = "denny-" + config.kind + "-session-v1";
+  $("save")?.addEventListener("click", () => {
+    try {
+      localStorage.setItem(key, JSON.stringify(getState()));
+      status(t("saved"));
+      track("save_session");
+    } catch {
+      status(t("storageError"));
+    }
+  });
+  $("load")?.addEventListener("click", () => {
+    try {
+      const raw = localStorage.getItem(key);
+      if (!raw) {
+        status(t("missing"));
+        return;
+      }
+      restore(safeState(config.kind, JSON.parse(raw)));
+      status(t("saved"));
+    } catch {
+      status(t("badLink"));
+    }
+  });
+  $("share")?.addEventListener("click", async () => {
+    try {
+      const state = getState(),
+        u = location.origin + location.pathname + "#s=" + encodeState(state);
+      if (u.length > 24000) throw Error();
+      try {
+        await navigator.clipboard.writeText(u);
+        status(t("copied"));
+      } catch {
+        const box = $("share-fallback");
+        box.hidden = false;
+        box.value = u;
+        box.focus();
+        box.select();
+        status(t("copyError"));
+      }
+      track("share_snapshot");
+    } catch {
+      status(t("invalid"));
+    }
+  });
+  $("print")?.addEventListener("click", () => {
+    track("print_result");
+    window.print();
+  });
+}
