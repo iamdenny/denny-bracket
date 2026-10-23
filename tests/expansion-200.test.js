@@ -4,15 +4,15 @@ import { activityExpansion } from '../scripts/activity-expansion.mjs';
 import { presets } from '../src/content.js';
 import { expandedPresets } from '../scripts/catalog.mjs';
 import { entries, elimination, roundRobin } from '../src/core.js';
-test('100 new usable activities in four languages, 200 total without slug or payload duplicates',()=>{
+test('200 expansion activities in four languages, 300 total without slug or payload duplicates',()=>{
  const kind='bracket';
  const all=[...presets[kind],...expandedPresets[kind]];
- assert.equal(activityExpansion.length,100); assert.equal(all.length,200);
- assert.equal(new Set(all.map(p=>p.slug)).size,200);
+ assert.equal(activityExpansion.length,200); assert.equal(all.length,300);
+ assert.equal(new Set(all.map(p=>p.slug)).size,300);
  for(let lang=0;lang<4;lang++){
-  assert.equal(new Set(activityExpansion.map(p=>p.title[lang])).size,100);
-  if(kind==='type')assert.equal(new Set(activityExpansion.map(p=>p.text[lang])).size,100);
-  if(kind==='spin')assert.equal(new Set(activityExpansion.map(p=>JSON.stringify(p.list[lang]))).size,100);
+  assert.equal(new Set(activityExpansion.map(p=>p.title[lang])).size,200);
+  if(kind==='type')assert.equal(new Set(activityExpansion.map(p=>p.text[lang])).size,200);
+  if(kind==='spin')assert.equal(new Set(activityExpansion.map(p=>JSON.stringify(p.list[lang]))).size,200);
   for(const p of activityExpansion){
    for(const key of ['title','desc','guide'])assert.ok(p[key][lang].trim().length>0);
    if(kind==='spin'){assert.equal(entries(p.list[lang].join('\n')).length,8);}

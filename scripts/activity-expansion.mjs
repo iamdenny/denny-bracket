@@ -1,4 +1,3 @@
-// Club-session examples, not official sport regulations or guaranteed durations.
 export const activityExpansion = [
   {
     "slug": "badminton-club-8-knockout",
@@ -3622,6 +3621,3781 @@ export const activityExpansion = [
         5,
         5,
         5
+      ]
+    }
+  },
+  {
+    "slug": "badminton-club-16-knockout",
+    "title": [
+      "Badminton club · 16 knockout",
+      "배드민턴 모임 · 16 토너먼트",
+      "バドミントンクラブ · 16 勝ち抜き戦",
+      "Club de bádminton · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 15-minute matches, 135 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 135분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合15分、休憩込み135分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 135 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 15-minute matches, 135 minutes including round breaks. Use one entry per singles player or doubles pair. Leave a short warm-up before calling the next match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 135분 운영 예시입니다. 단식 선수 또는 복식 조마다 한 항목을 사용하세요. 다음 경기를 부르기 전에 준비 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合15分、休憩込み135分の計画例。 シングルス選手またはダブルスペアを1項目にします。次の試合前に準備時間を取りましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 135 minutos con pausas. Usa una entrada por jugador o pareja. Deja un breve calentamiento antes del siguiente partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 135,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "badminton-club-24-knockout",
+    "title": [
+      "Badminton club · 24 knockout",
+      "배드민턴 모임 · 24 토너먼트",
+      "バドミントンクラブ · 24 勝ち抜き戦",
+      "Club de bádminton · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 15-minute matches, 200 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 200분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合15分、休憩込み200分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 200 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 15-minute matches, 200 minutes including round breaks. Use one entry per singles player or doubles pair. Leave a short warm-up before calling the next match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 200분 운영 예시입니다. 단식 선수 또는 복식 조마다 한 항목을 사용하세요. 다음 경기를 부르기 전에 준비 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合15分、休憩込み200分の計画例。 シングルス選手またはダブルスペアを1項目にします。次の試合前に準備時間を取りましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 200 minutos con pausas. Usa una entrada por jugador o pareja. Deja un breve calentamiento antes del siguiente partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 200,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "badminton-club-8-league",
+    "title": [
+      "Badminton club · 8 round robin",
+      "배드민턴 모임 · 8 풀리그",
+      "バドミントンクラブ · 8 総当たり",
+      "Club de bádminton · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 15-minute matches, 240 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 240분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合15分、休憩込み240分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 240 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 15-minute matches, 240 minutes including round breaks. Use one entry per singles player or doubles pair. Leave a short warm-up before calling the next match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 240분 운영 예시입니다. 단식 선수 또는 복식 조마다 한 항목을 사용하세요. 다음 경기를 부르기 전에 준비 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合15分、休憩込み240分の計画例。 シングルス選手またはダブルスペアを1項目にします。次の試合前に準備時間を取りましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 240 minutos con pausas. Usa una entrada por jugador o pareja. Deja un breve calentamiento antes del siguiente partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 240,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "badminton-club-12-league",
+    "title": [
+      "Badminton club · 12 round robin",
+      "배드민턴 모임 · 12 풀리그",
+      "バドミントンクラブ · 12 総当たり",
+      "Club de bádminton · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 15-minute matches, 545 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 545분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合15分、休憩込み545分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 545 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 15-minute matches, 545 minutes including round breaks. Use one entry per singles player or doubles pair. Leave a short warm-up before calling the next match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 545분 운영 예시입니다. 단식 선수 또는 복식 조마다 한 항목을 사용하세요. 다음 경기를 부르기 전에 준비 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合15分、休憩込み545分の計画例。 シングルス選手またはダブルスペアを1項目にします。次の試合前に準備時間を取りましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 545 minutos con pausas. Usa una entrada por jugador o pareja. Deja un breve calentamiento antes del siguiente partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 545,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "table-tennis-club-16-knockout",
+    "title": [
+      "Table tennis club · 16 knockout",
+      "탁구 모임 · 16 토너먼트",
+      "卓球クラブ · 16 勝ち抜き戦",
+      "Club de tenis de mesa · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 12-minute matches, 111 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 111분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合12分、休憩込み111分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 111 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 12-minute matches, 111 minutes including round breaks. Number the tables and ask the winner to report the result before leaving. Record games won as the score if that is your agreed format. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 111분 운영 예시입니다. 탁구대에 번호를 붙이고 승자가 자리를 떠나기 전에 결과를 알리게 하세요. 합의한 방식이 게임 승수라면 이를 점수로 적으세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合12分、休憩込み111分の計画例。 台に番号を付け、勝者は離れる前に結果を報告します。事前に合意した方式なら、勝ったゲーム数を記録します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 111 minutos con pausas. Numera las mesas y pide al ganador que comunique el resultado. Registra juegos ganados si ese es el formato acordado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 111,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "table-tennis-club-24-knockout",
+    "title": [
+      "Table tennis club · 24 knockout",
+      "탁구 모임 · 24 토너먼트",
+      "卓球クラブ · 24 勝ち抜き戦",
+      "Club de tenis de mesa · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 12-minute matches, 164 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 164분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合12分、休憩込み164分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 164 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 12-minute matches, 164 minutes including round breaks. Number the tables and ask the winner to report the result before leaving. Record games won as the score if that is your agreed format. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 164분 운영 예시입니다. 탁구대에 번호를 붙이고 승자가 자리를 떠나기 전에 결과를 알리게 하세요. 합의한 방식이 게임 승수라면 이를 점수로 적으세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合12分、休憩込み164分の計画例。 台に番号を付け、勝者は離れる前に結果を報告します。事前に合意した方式なら、勝ったゲーム数を記録します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 164 minutos con pausas. Numera las mesas y pide al ganador que comunique el resultado. Registra juegos ganados si ese es el formato acordado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 164,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "table-tennis-club-8-league",
+    "title": [
+      "Table tennis club · 8 round robin",
+      "탁구 모임 · 8 풀리그",
+      "卓球クラブ · 8 総当たり",
+      "Club de tenis de mesa · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 12-minute matches, 198 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 198분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合12分、休憩込み198分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 198 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 12-minute matches, 198 minutes including round breaks. Number the tables and ask the winner to report the result before leaving. Record games won as the score if that is your agreed format. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 198분 운영 예시입니다. 탁구대에 번호를 붙이고 승자가 자리를 떠나기 전에 결과를 알리게 하세요. 합의한 방식이 게임 승수라면 이를 점수로 적으세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合12分、休憩込み198分の計画例。 台に番号を付け、勝者は離れる前に結果を報告します。事前に合意した方式なら、勝ったゲーム数を記録します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 198 minutos con pausas. Numera las mesas y pide al ganador que comunique el resultado. Registra juegos ganados si ese es el formato acordado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 198,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "table-tennis-club-12-league",
+    "title": [
+      "Table tennis club · 12 round robin",
+      "탁구 모임 · 12 풀리그",
+      "卓球クラブ · 12 総当たり",
+      "Club de tenis de mesa · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 12-minute matches, 446 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 446분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合12分、休憩込み446分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 446 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 12-minute matches, 446 minutes including round breaks. Number the tables and ask the winner to report the result before leaving. Record games won as the score if that is your agreed format. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 446분 운영 예시입니다. 탁구대에 번호를 붙이고 승자가 자리를 떠나기 전에 결과를 알리게 하세요. 합의한 방식이 게임 승수라면 이를 점수로 적으세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合12分、休憩込み446分の計画例。 台に番号を付け、勝者は離れる前に結果を報告します。事前に合意した方式なら、勝ったゲーム数を記録します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 446 minutos con pausas. Numera las mesas y pide al ganador que comunique el resultado. Registra juegos ganados si ese es el formato acordado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 446,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "pickleball-social-16-knockout",
+    "title": [
+      "Pickleball social · 16 knockout",
+      "피클볼 친선전 · 16 토너먼트",
+      "ピックルボール交流会 · 16 勝ち抜き戦",
+      "Encuentro de pickleball · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 18-minute matches, 159 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 18분, 라운드 휴식 포함 159분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合18分、休憩込み159分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 18 minutos y 159 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 18-minute matches, 159 minutes including round breaks. Enter fixed pairs if playing doubles. Confirm who provides balls and how courts will be shared before starting. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 18분, 라운드 휴식 포함 159분 운영 예시입니다. 복식이면 고정된 조를 입력하세요. 시작 전에 공 준비와 코트 공유 방법을 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合18分、休憩込み159分の計画例。 ダブルスなら固定ペアを入力します。ボールの準備とコートの分け方を開始前に確認します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 18 minutos y 159 minutos con pausas. Introduce parejas fijas para dobles. Acordad quién trae pelotas y cómo compartir las pistas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 18,
+      "breakMinutes": 5,
+      "totalMinutes": 159,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "pickleball-social-24-knockout",
+    "title": [
+      "Pickleball social · 24 knockout",
+      "피클볼 친선전 · 24 토너먼트",
+      "ピックルボール交流会 · 24 勝ち抜き戦",
+      "Encuentro de pickleball · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 18-minute matches, 236 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 18분, 라운드 휴식 포함 236분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合18分、休憩込み236分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 18 minutos y 236 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 18-minute matches, 236 minutes including round breaks. Enter fixed pairs if playing doubles. Confirm who provides balls and how courts will be shared before starting. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 18분, 라운드 휴식 포함 236분 운영 예시입니다. 복식이면 고정된 조를 입력하세요. 시작 전에 공 준비와 코트 공유 방법을 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合18分、休憩込み236分の計画例。 ダブルスなら固定ペアを入力します。ボールの準備とコートの分け方を開始前に確認します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 18 minutos y 236 minutos con pausas. Introduce parejas fijas para dobles. Acordad quién trae pelotas y cómo compartir las pistas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 18,
+      "breakMinutes": 5,
+      "totalMinutes": 236,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "pickleball-social-8-league",
+    "title": [
+      "Pickleball social · 8 round robin",
+      "피클볼 친선전 · 8 풀리그",
+      "ピックルボール交流会 · 8 総当たり",
+      "Encuentro de pickleball · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 18-minute matches, 282 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 18분, 라운드 휴식 포함 282분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合18分、休憩込み282分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 18 minutos y 282 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 18-minute matches, 282 minutes including round breaks. Enter fixed pairs if playing doubles. Confirm who provides balls and how courts will be shared before starting. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 18분, 라운드 휴식 포함 282분 운영 예시입니다. 복식이면 고정된 조를 입력하세요. 시작 전에 공 준비와 코트 공유 방법을 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合18分、休憩込み282分の計画例。 ダブルスなら固定ペアを入力します。ボールの準備とコートの分け方を開始前に確認します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 18 minutos y 282 minutos con pausas. Introduce parejas fijas para dobles. Acordad quién trae pelotas y cómo compartir las pistas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 18,
+      "breakMinutes": 5,
+      "totalMinutes": 282,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "pickleball-social-12-league",
+    "title": [
+      "Pickleball social · 12 round robin",
+      "피클볼 친선전 · 12 풀리그",
+      "ピックルボール交流会 · 12 総当たり",
+      "Encuentro de pickleball · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 18-minute matches, 644 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 18분, 라운드 휴식 포함 644분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合18分、休憩込み644分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 18 minutos y 644 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 18-minute matches, 644 minutes including round breaks. Enter fixed pairs if playing doubles. Confirm who provides balls and how courts will be shared before starting. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 18분, 라운드 휴식 포함 644분 운영 예시입니다. 복식이면 고정된 조를 입력하세요. 시작 전에 공 준비와 코트 공유 방법을 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合18分、休憩込み644分の計画例。 ダブルスなら固定ペアを入力します。ボールの準備とコートの分け方を開始前に確認します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 18 minutos y 644 minutos con pausas. Introduce parejas fijas para dobles. Acordad quién trae pelotas y cómo compartir las pistas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 18,
+      "breakMinutes": 5,
+      "totalMinutes": 644,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "tennis-short-16-knockout",
+    "title": [
+      "Short tennis session · 16 knockout",
+      "짧은 테니스 모임 · 16 토너먼트",
+      "短時間テニス会 · 16 勝ち抜き戦",
+      "Sesión corta de tenis · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 25-minute matches, 215 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 215분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合25分、休憩込み215分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 215 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 25-minute matches, 215 minutes including round breaks. Agree on a short match format before play. These planning slots are examples and do not guarantee that a tennis match ends on time. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 215분 운영 예시입니다. 시작 전에 단축 경기 방식을 합의하세요. 시간 칸은 계획 예시이며 테니스 경기 종료 시간을 보장하지 않습니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合25分、休憩込み215分の計画例。 短縮形式を事前に決めます。時間枠は計画例であり、試合が時間内に終わる保証ではありません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 215 minutos con pausas. Acordad un formato corto. Los intervalos son ejemplos y no garantizan la duración del partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 215,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "tennis-short-24-knockout",
+    "title": [
+      "Short tennis session · 24 knockout",
+      "짧은 테니스 모임 · 24 토너먼트",
+      "短時間テニス会 · 24 勝ち抜き戦",
+      "Sesión corta de tenis · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 25-minute matches, 320 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 320분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合25分、休憩込み320分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 320 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 25-minute matches, 320 minutes including round breaks. Agree on a short match format before play. These planning slots are examples and do not guarantee that a tennis match ends on time. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 320분 운영 예시입니다. 시작 전에 단축 경기 방식을 합의하세요. 시간 칸은 계획 예시이며 테니스 경기 종료 시간을 보장하지 않습니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合25分、休憩込み320分の計画例。 短縮形式を事前に決めます。時間枠は計画例であり、試合が時間内に終わる保証ではありません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 320 minutos con pausas. Acordad un formato corto. Los intervalos son ejemplos y no garantizan la duración del partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 320,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "tennis-short-8-league",
+    "title": [
+      "Short tennis session · 8 round robin",
+      "짧은 테니스 모임 · 8 풀리그",
+      "短時間テニス会 · 8 総当たり",
+      "Sesión corta de tenis · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 25-minute matches, 380 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 380분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合25分、休憩込み380分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 380 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 25-minute matches, 380 minutes including round breaks. Agree on a short match format before play. These planning slots are examples and do not guarantee that a tennis match ends on time. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 380분 운영 예시입니다. 시작 전에 단축 경기 방식을 합의하세요. 시간 칸은 계획 예시이며 테니스 경기 종료 시간을 보장하지 않습니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合25分、休憩込み380分の計画例。 短縮形式を事前に決めます。時間枠は計画例であり、試合が時間内に終わる保証ではありません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 380 minutos con pausas. Acordad un formato corto. Los intervalos son ejemplos y no garantizan la duración del partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 380,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "tennis-short-12-league",
+    "title": [
+      "Short tennis session · 12 round robin",
+      "짧은 테니스 모임 · 12 풀리그",
+      "短時間テニス会 · 12 総当たり",
+      "Sesión corta de tenis · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 25-minute matches, 875 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 875분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合25分、休憩込み875分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 875 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 25-minute matches, 875 minutes including round breaks. Agree on a short match format before play. These planning slots are examples and do not guarantee that a tennis match ends on time. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 875분 운영 예시입니다. 시작 전에 단축 경기 방식을 합의하세요. 시간 칸은 계획 예시이며 테니스 경기 종료 시간을 보장하지 않습니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合25分、休憩込み875分の計画例。 短縮形式を事前に決めます。時間枠は計画例であり、試合が時間内に終わる保証ではありません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 875 minutos con pausas. Acordad un formato corto. Los intervalos son ejemplos y no garantizan la duración del partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 875,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "squash-social-16-knockout",
+    "title": [
+      "Squash social · 16 knockout",
+      "스쿼시 친선전 · 16 토너먼트",
+      "スカッシュ交流会 · 16 勝ち抜き戦",
+      "Encuentro de squash · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 20-minute matches, 175 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 175분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合20分、休憩込み175分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 175 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 20-minute matches, 175 minutes including round breaks. Confirm court bookings and allow players to prepare before their court becomes available. Keep a separate list for equipment loans. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 175분 운영 예시입니다. 코트 예약을 확인하고 사용할 차례 전에 준비하도록 안내하세요. 장비 대여는 별도 목록으로 관리하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合20分、休憩込み175分の計画例。 コート予約を確認し、空く前に準備してもらいます。貸出道具は別の一覧で管理しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 175 minutos con pausas. Comprueba las reservas y prepara a los jugadores antes de liberar la pista. Lleva una lista aparte del material prestado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 175,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "squash-social-24-knockout",
+    "title": [
+      "Squash social · 24 knockout",
+      "스쿼시 친선전 · 24 토너먼트",
+      "スカッシュ交流会 · 24 勝ち抜き戦",
+      "Encuentro de squash · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 20-minute matches, 260 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 260분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合20分、休憩込み260分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 260 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 20-minute matches, 260 minutes including round breaks. Confirm court bookings and allow players to prepare before their court becomes available. Keep a separate list for equipment loans. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 260분 운영 예시입니다. 코트 예약을 확인하고 사용할 차례 전에 준비하도록 안내하세요. 장비 대여는 별도 목록으로 관리하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合20分、休憩込み260分の計画例。 コート予約を確認し、空く前に準備してもらいます。貸出道具は別の一覧で管理しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 260 minutos con pausas. Comprueba las reservas y prepara a los jugadores antes de liberar la pista. Lleva una lista aparte del material prestado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 260,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "squash-social-8-league",
+    "title": [
+      "Squash social · 8 round robin",
+      "스쿼시 친선전 · 8 풀리그",
+      "スカッシュ交流会 · 8 総当たり",
+      "Encuentro de squash · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 20-minute matches, 310 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 310분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合20分、休憩込み310分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 310 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 20-minute matches, 310 minutes including round breaks. Confirm court bookings and allow players to prepare before their court becomes available. Keep a separate list for equipment loans. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 310분 운영 예시입니다. 코트 예약을 확인하고 사용할 차례 전에 준비하도록 안내하세요. 장비 대여는 별도 목록으로 관리하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合20分、休憩込み310分の計画例。 コート予約を確認し、空く前に準備してもらいます。貸出道具は別の一覧で管理しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 310 minutos con pausas. Comprueba las reservas y prepara a los jugadores antes de liberar la pista. Lleva una lista aparte del material prestado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 310,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "squash-social-12-league",
+    "title": [
+      "Squash social · 12 round robin",
+      "스쿼시 친선전 · 12 풀리그",
+      "スカッシュ交流会 · 12 総当たり",
+      "Encuentro de squash · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 20-minute matches, 710 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 710분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合20分、休憩込み710分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 710 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 20-minute matches, 710 minutes including round breaks. Confirm court bookings and allow players to prepare before their court becomes available. Keep a separate list for equipment loans. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 710분 운영 예시입니다. 코트 예약을 확인하고 사용할 차례 전에 준비하도록 안내하세요. 장비 대여는 별도 목록으로 관리하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合20分、休憩込み710分の計画例。 コート予約を確認し、空く前に準備してもらいます。貸出道具は別の一覧で管理しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 710 minutos con pausas. Comprueba las reservas y prepara a los jugadores antes de liberar la pista. Lleva una lista aparte del material prestado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 710,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "futsal-friendly-16-knockout",
+    "title": [
+      "Futsal friendly · 16 knockout",
+      "풋살 친선전 · 16 토너먼트",
+      "フットサル交流戦 · 16 勝ち抜き戦",
+      "Amistoso de fútbol sala · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 20-minute matches, 315 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 315분 운영 예시입니다.",
+      "4ラウンドで15試合。会場1面、1試合20分、休憩込み315分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 315 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 20-minute matches, 315 minutes including round breaks. Use team names and publish the local time limit. Record team scores; agree beforehand how a tied knockout match will be resolved. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 315분 운영 예시입니다. 팀 이름과 자체 경기 시간을 공지하세요. 팀 점수를 기록하고 토너먼트 무승부 처리 방식을 미리 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場1面、1試合20分、休憩込み315分の計画例。 チーム名と独自の制限時間を案内します。得点を記録し、トーナメントの同点処理は事前に決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 315 minutos con pausas. Usa nombres de equipos y publica el límite local. Acordad cómo resolver un empate en eliminatorias. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 315,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "futsal-friendly-24-knockout",
+    "title": [
+      "Futsal friendly · 24 knockout",
+      "풋살 친선전 · 24 토너먼트",
+      "フットサル交流戦 · 24 勝ち抜き戦",
+      "Amistoso de fútbol sala · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 20-minute matches, 480 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 480분 운영 예시입니다.",
+      "5ラウンドで23試合。会場1面、1試合20分、休憩込み480分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 480 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 20-minute matches, 480 minutes including round breaks. Use team names and publish the local time limit. Record team scores; agree beforehand how a tied knockout match will be resolved. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 480분 운영 예시입니다. 팀 이름과 자체 경기 시간을 공지하세요. 팀 점수를 기록하고 토너먼트 무승부 처리 방식을 미리 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場1面、1試合20分、休憩込み480分の計画例。 チーム名と独自の制限時間を案内します。得点を記録し、トーナメントの同点処理は事前に決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 480 minutos con pausas. Usa nombres de equipos y publica el límite local. Acordad cómo resolver un empate en eliminatorias. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 480,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "futsal-friendly-8-league",
+    "title": [
+      "Futsal friendly · 8 round robin",
+      "풋살 친선전 · 8 풀리그",
+      "フットサル交流戦 · 8 総当たり",
+      "Amistoso de fútbol sala · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 20-minute matches, 590 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 590분 운영 예시입니다.",
+      "7ラウンドで28試合。会場1面、1試合20分、休憩込み590分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 590 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 20-minute matches, 590 minutes including round breaks. Use team names and publish the local time limit. Record team scores; agree beforehand how a tied knockout match will be resolved. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 590분 운영 예시입니다. 팀 이름과 자체 경기 시간을 공지하세요. 팀 점수를 기록하고 토너먼트 무승부 처리 방식을 미리 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場1面、1試合20分、休憩込み590分の計画例。 チーム名と独自の制限時間を案内します。得点を記録し、トーナメントの同点処理は事前に決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 590 minutos con pausas. Usa nombres de equipos y publica el límite local. Acordad cómo resolver un empate en eliminatorias. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 590,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "futsal-friendly-12-league",
+    "title": [
+      "Futsal friendly · 12 round robin",
+      "풋살 친선전 · 12 풀리그",
+      "フットサル交流戦 · 12 総当たり",
+      "Amistoso de fútbol sala · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 20-minute matches, 1370 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 1370분 운영 예시입니다.",
+      "11ラウンドで66試合。会場1面、1試合20分、休憩込み1370分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 1370 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 20-minute matches, 1370 minutes including round breaks. Use team names and publish the local time limit. Record team scores; agree beforehand how a tied knockout match will be resolved. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 1370분 운영 예시입니다. 팀 이름과 자체 경기 시간을 공지하세요. 팀 점수를 기록하고 토너먼트 무승부 처리 방식을 미리 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場1面、1試合20分、休憩込み1370分の計画例。 チーム名と独自の制限時間を案内します。得点を記録し、トーナメントの同点処理は事前に決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 1370 minutos con pausas. Usa nombres de equipos y publica el límite local. Acordad cómo resolver un empate en eliminatorias. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 1370,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "basketball-halfcourt-16-knockout",
+    "title": [
+      "Half-court basketball · 16 knockout",
+      "하프코트 농구 · 16 토너먼트",
+      "ハーフコートバスケ · 16 勝ち抜き戦",
+      "Baloncesto de media pista · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 15-minute matches, 240 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 15분, 라운드 휴식 포함 240분 운영 예시입니다.",
+      "4ラウンドで15試合。会場1面、1試合15分、休憩込み240分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 15 minutos y 240 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 15-minute matches, 240 minutes including round breaks. Enter teams rather than individual players. Set a local scoring target and explain possession changes before the first match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 15분, 라운드 휴식 포함 240분 운영 예시입니다. 개인 대신 팀을 입력하세요. 자체 목표 점수와 공격권 전환 방식을 첫 경기 전에 설명하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場1面、1試合15分、休憩込み240分の計画例。 個人でなくチームを入力します。目標得点と攻撃権の交代方法を最初に説明しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 15 minutos y 240 minutos con pausas. Introduce equipos. Fija el objetivo de puntos local y explica los cambios de posesión antes del primer partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 240,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "basketball-halfcourt-24-knockout",
+    "title": [
+      "Half-court basketball · 24 knockout",
+      "하프코트 농구 · 24 토너먼트",
+      "ハーフコートバスケ · 24 勝ち抜き戦",
+      "Baloncesto de media pista · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 15-minute matches, 365 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 15분, 라운드 휴식 포함 365분 운영 예시입니다.",
+      "5ラウンドで23試合。会場1面、1試合15分、休憩込み365分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 15 minutos y 365 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 15-minute matches, 365 minutes including round breaks. Enter teams rather than individual players. Set a local scoring target and explain possession changes before the first match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 15분, 라운드 휴식 포함 365분 운영 예시입니다. 개인 대신 팀을 입력하세요. 자체 목표 점수와 공격권 전환 방식을 첫 경기 전에 설명하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場1面、1試合15分、休憩込み365分の計画例。 個人でなくチームを入力します。目標得点と攻撃権の交代方法を最初に説明しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 15 minutos y 365 minutos con pausas. Introduce equipos. Fija el objetivo de puntos local y explica los cambios de posesión antes del primer partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 365,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "basketball-halfcourt-8-league",
+    "title": [
+      "Half-court basketball · 8 round robin",
+      "하프코트 농구 · 8 풀리그",
+      "ハーフコートバスケ · 8 総当たり",
+      "Baloncesto de media pista · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 15-minute matches, 450 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 15분, 라운드 휴식 포함 450분 운영 예시입니다.",
+      "7ラウンドで28試合。会場1面、1試合15分、休憩込み450分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 15 minutos y 450 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 15-minute matches, 450 minutes including round breaks. Enter teams rather than individual players. Set a local scoring target and explain possession changes before the first match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 15분, 라운드 휴식 포함 450분 운영 예시입니다. 개인 대신 팀을 입력하세요. 자체 목표 점수와 공격권 전환 방식을 첫 경기 전에 설명하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場1面、1試合15分、休憩込み450分の計画例。 個人でなくチームを入力します。目標得点と攻撃権の交代方法を最初に説明しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 15 minutos y 450 minutos con pausas. Introduce equipos. Fija el objetivo de puntos local y explica los cambios de posesión antes del primer partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 450,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "basketball-halfcourt-12-league",
+    "title": [
+      "Half-court basketball · 12 round robin",
+      "하프코트 농구 · 12 풀리그",
+      "ハーフコートバスケ · 12 総当たり",
+      "Baloncesto de media pista · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 15-minute matches, 1040 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 15분, 라운드 휴식 포함 1040분 운영 예시입니다.",
+      "11ラウンドで66試合。会場1面、1試合15分、休憩込み1040分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 15 minutos y 1040 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 15-minute matches, 1040 minutes including round breaks. Enter teams rather than individual players. Set a local scoring target and explain possession changes before the first match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 15분, 라운드 휴식 포함 1040분 운영 예시입니다. 개인 대신 팀을 입력하세요. 자체 목표 점수와 공격권 전환 방식을 첫 경기 전에 설명하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場1面、1試合15分、休憩込み1040分の計画例。 個人でなくチームを入力します。目標得点と攻撃権の交代方法を最初に説明しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 15 minutos y 1040 minutos con pausas. Introduce equipos. Fija el objetivo de puntos local y explica los cambios de posesión antes del primer partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 1040,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "volleyball-friendly-16-knockout",
+    "title": [
+      "Volleyball friendly · 16 knockout",
+      "배구 친선전 · 16 토너먼트",
+      "バレーボール交流戦 · 16 勝ち抜き戦",
+      "Amistoso de voleibol · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 25-minute matches, 390 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 390분 운영 예시입니다.",
+      "4ラウンドで15試合。会場1面、1試合25分、休憩込み390分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 390 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 25-minute matches, 390 minutes including round breaks. Use fixed team rosters and arrange an available scorekeeper. The time estimate is for planning, not an official set duration. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 390분 운영 예시입니다. 팀 명단을 고정하고 기록원을 정하세요. 시간 추정은 계획용이며 공식 세트 시간이 아닙니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場1面、1試合25分、休憩込み390分の計画例。 チームを固定し、得点係を用意します。時間は計画用で、公式なセット時間ではありません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 390 minutos con pausas. Fija las plantillas y asigna una persona al marcador. El tiempo es orientativo, no una duración oficial de set. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 390,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "volleyball-friendly-24-knockout",
+    "title": [
+      "Volleyball friendly · 24 knockout",
+      "배구 친선전 · 24 토너먼트",
+      "バレーボール交流戦 · 24 勝ち抜き戦",
+      "Amistoso de voleibol · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 25-minute matches, 595 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 595분 운영 예시입니다.",
+      "5ラウンドで23試合。会場1面、1試合25分、休憩込み595分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 595 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 25-minute matches, 595 minutes including round breaks. Use fixed team rosters and arrange an available scorekeeper. The time estimate is for planning, not an official set duration. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 595분 운영 예시입니다. 팀 명단을 고정하고 기록원을 정하세요. 시간 추정은 계획용이며 공식 세트 시간이 아닙니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場1面、1試合25分、休憩込み595分の計画例。 チームを固定し、得点係を用意します。時間は計画用で、公式なセット時間ではありません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 595 minutos con pausas. Fija las plantillas y asigna una persona al marcador. El tiempo es orientativo, no una duración oficial de set. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 595,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "volleyball-friendly-8-league",
+    "title": [
+      "Volleyball friendly · 8 round robin",
+      "배구 친선전 · 8 풀리그",
+      "バレーボール交流戦 · 8 総当たり",
+      "Amistoso de voleibol · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 25-minute matches, 730 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 730분 운영 예시입니다.",
+      "7ラウンドで28試合。会場1面、1試合25分、休憩込み730分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 730 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 25-minute matches, 730 minutes including round breaks. Use fixed team rosters and arrange an available scorekeeper. The time estimate is for planning, not an official set duration. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 730분 운영 예시입니다. 팀 명단을 고정하고 기록원을 정하세요. 시간 추정은 계획용이며 공식 세트 시간이 아닙니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場1面、1試合25分、休憩込み730分の計画例。 チームを固定し、得点係を用意します。時間は計画用で、公式なセット時間ではありません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 730 minutos con pausas. Fija las plantillas y asigna una persona al marcador. El tiempo es orientativo, no una duración oficial de set. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 730,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "volleyball-friendly-12-league",
+    "title": [
+      "Volleyball friendly · 12 round robin",
+      "배구 친선전 · 12 풀리그",
+      "バレーボール交流戦 · 12 総当たり",
+      "Amistoso de voleibol · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 25-minute matches, 1700 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 1700분 운영 예시입니다.",
+      "11ラウンドで66試合。会場1面、1試合25分、休憩込み1700分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 1700 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 25-minute matches, 1700 minutes including round breaks. Use fixed team rosters and arrange an available scorekeeper. The time estimate is for planning, not an official set duration. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 1700분 운영 예시입니다. 팀 명단을 고정하고 기록원을 정하세요. 시간 추정은 계획용이며 공식 세트 시간이 아닙니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場1面、1試合25分、休憩込み1700分の計画例。 チームを固定し、得点係を用意します。時間は計画用で、公式なセット時間ではありません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 1700 minutos con pausas. Fija las plantillas y asigna una persona al marcador. El tiempo es orientativo, no una duración oficial de set. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 1700,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "handball-mini-16-knockout",
+    "title": [
+      "Mini handball · 16 knockout",
+      "미니 핸드볼 · 16 토너먼트",
+      "ミニハンドボール · 16 勝ち抜き戦",
+      "Mini balonmano · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 18-minute matches, 285 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 18분, 라운드 휴식 포함 285분 운영 예시입니다.",
+      "4ラウンドで15試合。会場1面、1試合18分、休憩込み285分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 18 minutos y 285 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 18-minute matches, 285 minutes including round breaks. Check the playing area and team readiness before each round. Publish rest breaks separately from the match clock. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 18분, 라운드 휴식 포함 285분 운영 예시입니다. 라운드마다 경기 구역과 팀 준비 상태를 확인하세요. 경기 시간과 휴식 시간을 구분해 공지하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場1面、1試合18分、休憩込み285分の計画例。 毎ラウンド、会場とチームの準備を確認します。休憩と試合時間は分けて案内しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 18 minutos y 285 minutos con pausas. Comprueba el espacio y los equipos en cada ronda. Publica los descansos por separado del tiempo de juego. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 18,
+      "breakMinutes": 5,
+      "totalMinutes": 285,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "handball-mini-24-knockout",
+    "title": [
+      "Mini handball · 24 knockout",
+      "미니 핸드볼 · 24 토너먼트",
+      "ミニハンドボール · 24 勝ち抜き戦",
+      "Mini balonmano · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 18-minute matches, 434 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 18분, 라운드 휴식 포함 434분 운영 예시입니다.",
+      "5ラウンドで23試合。会場1面、1試合18分、休憩込み434分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 18 minutos y 434 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 18-minute matches, 434 minutes including round breaks. Check the playing area and team readiness before each round. Publish rest breaks separately from the match clock. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 18분, 라운드 휴식 포함 434분 운영 예시입니다. 라운드마다 경기 구역과 팀 준비 상태를 확인하세요. 경기 시간과 휴식 시간을 구분해 공지하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場1面、1試合18分、休憩込み434分の計画例。 毎ラウンド、会場とチームの準備を確認します。休憩と試合時間は分けて案内しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 18 minutos y 434 minutos con pausas. Comprueba el espacio y los equipos en cada ronda. Publica los descansos por separado del tiempo de juego. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 18,
+      "breakMinutes": 5,
+      "totalMinutes": 434,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "handball-mini-8-league",
+    "title": [
+      "Mini handball · 8 round robin",
+      "미니 핸드볼 · 8 풀리그",
+      "ミニハンドボール · 8 総当たり",
+      "Mini balonmano · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 18-minute matches, 534 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 18분, 라운드 휴식 포함 534분 운영 예시입니다.",
+      "7ラウンドで28試合。会場1面、1試合18分、休憩込み534分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 18 minutos y 534 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 18-minute matches, 534 minutes including round breaks. Check the playing area and team readiness before each round. Publish rest breaks separately from the match clock. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 18분, 라운드 휴식 포함 534분 운영 예시입니다. 라운드마다 경기 구역과 팀 준비 상태를 확인하세요. 경기 시간과 휴식 시간을 구분해 공지하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場1面、1試合18分、休憩込み534分の計画例。 毎ラウンド、会場とチームの準備を確認します。休憩と試合時間は分けて案内しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 18 minutos y 534 minutos con pausas. Comprueba el espacio y los equipos en cada ronda. Publica los descansos por separado del tiempo de juego. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 18,
+      "breakMinutes": 5,
+      "totalMinutes": 534,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "handball-mini-12-league",
+    "title": [
+      "Mini handball · 12 round robin",
+      "미니 핸드볼 · 12 풀리그",
+      "ミニハンドボール · 12 総当たり",
+      "Mini balonmano · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 18-minute matches, 1238 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 18분, 라운드 휴식 포함 1238분 운영 예시입니다.",
+      "11ラウンドで66試合。会場1面、1試合18分、休憩込み1238分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 18 minutos y 1238 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 18-minute matches, 1238 minutes including round breaks. Check the playing area and team readiness before each round. Publish rest breaks separately from the match clock. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 18분, 라운드 휴식 포함 1238분 운영 예시입니다. 라운드마다 경기 구역과 팀 준비 상태를 확인하세요. 경기 시간과 휴식 시간을 구분해 공지하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場1面、1試合18分、休憩込み1238分の計画例。 毎ラウンド、会場とチームの準備を確認します。休憩と試合時間は分けて案内しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 18 minutos y 1238 minutos con pausas. Comprueba el espacio y los equipos en cada ronda. Publica los descansos por separado del tiempo de juego. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 18,
+      "breakMinutes": 5,
+      "totalMinutes": 1238,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "floorball-club-16-knockout",
+    "title": [
+      "Floorball club · 16 knockout",
+      "플로어볼 모임 · 16 토너먼트",
+      "フロアボールクラブ · 16 勝ち抜き戦",
+      "Club de floorball · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 20-minute matches, 315 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 315분 운영 예시입니다.",
+      "4ラウンドで15試合。会場1面、1試合20分、休憩込み315分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 315 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 20-minute matches, 315 minutes including round breaks. Choose a score reporter for each team and confirm local equipment rules. Keep the entrance to the playing area clear. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 315분 운영 예시입니다. 팀마다 결과 담당자를 정하고 자체 장비 규칙을 확인하세요. 경기장 입구를 비워 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場1面、1試合20分、休憩込み315分の計画例。 各チームに報告係を決め、用具の規則を確認します。競技エリアの入口を空けておきましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 315 minutos con pausas. Asigna un responsable del resultado por equipo y confirma las reglas de material. Mantén libre el acceso. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 315,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "floorball-club-24-knockout",
+    "title": [
+      "Floorball club · 24 knockout",
+      "플로어볼 모임 · 24 토너먼트",
+      "フロアボールクラブ · 24 勝ち抜き戦",
+      "Club de floorball · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 20-minute matches, 480 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 480분 운영 예시입니다.",
+      "5ラウンドで23試合。会場1面、1試合20分、休憩込み480分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 480 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 20-minute matches, 480 minutes including round breaks. Choose a score reporter for each team and confirm local equipment rules. Keep the entrance to the playing area clear. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 480분 운영 예시입니다. 팀마다 결과 담당자를 정하고 자체 장비 규칙을 확인하세요. 경기장 입구를 비워 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場1面、1試合20分、休憩込み480分の計画例。 各チームに報告係を決め、用具の規則を確認します。競技エリアの入口を空けておきましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 480 minutos con pausas. Asigna un responsable del resultado por equipo y confirma las reglas de material. Mantén libre el acceso. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 480,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "floorball-club-8-league",
+    "title": [
+      "Floorball club · 8 round robin",
+      "플로어볼 모임 · 8 풀리그",
+      "フロアボールクラブ · 8 総当たり",
+      "Club de floorball · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 20-minute matches, 590 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 590분 운영 예시입니다.",
+      "7ラウンドで28試合。会場1面、1試合20分、休憩込み590分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 590 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 20-minute matches, 590 minutes including round breaks. Choose a score reporter for each team and confirm local equipment rules. Keep the entrance to the playing area clear. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 590분 운영 예시입니다. 팀마다 결과 담당자를 정하고 자체 장비 규칙을 확인하세요. 경기장 입구를 비워 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場1面、1試合20分、休憩込み590分の計画例。 各チームに報告係を決め、用具の規則を確認します。競技エリアの入口を空けておきましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 590 minutos con pausas. Asigna un responsable del resultado por equipo y confirma las reglas de material. Mantén libre el acceso. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 590,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "floorball-club-12-league",
+    "title": [
+      "Floorball club · 12 round robin",
+      "플로어볼 모임 · 12 풀리그",
+      "フロアボールクラブ · 12 総当たり",
+      "Club de floorball · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 20-minute matches, 1370 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 1370분 운영 예시입니다.",
+      "11ラウンドで66試合。会場1面、1試合20分、休憩込み1370分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 1370 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 20-minute matches, 1370 minutes including round breaks. Choose a score reporter for each team and confirm local equipment rules. Keep the entrance to the playing area clear. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 20분, 라운드 휴식 포함 1370분 운영 예시입니다. 팀마다 결과 담당자를 정하고 자체 장비 규칙을 확인하세요. 경기장 입구를 비워 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場1面、1試合20分、休憩込み1370分の計画例。 各チームに報告係を決め、用具の規則を確認します。競技エリアの入口を空けておきましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 20 minutos y 1370 minutos con pausas. Asigna un responsable del resultado por equipo y confirma las reglas de material. Mantén libre el acceso. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 1370,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "ultimate-friendly-16-knockout",
+    "title": [
+      "Ultimate friendly · 16 knockout",
+      "얼티미트 친선전 · 16 토너먼트",
+      "アルティメット交流戦 · 16 勝ち抜き戦",
+      "Amistoso de ultimate · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 25-minute matches, 390 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 390분 운영 예시입니다.",
+      "4ラウンドで15試合。会場1面、1試合25分、休憩込み390分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 390 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 25-minute matches, 390 minutes including round breaks. Agree on a local points or time cap. Ask both teams to confirm the final score before advancing the bracket. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 390분 운영 예시입니다. 자체 점수 또는 시간 제한을 합의하세요. 대진을 진행하기 전에 두 팀이 최종 점수를 확인하게 하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場1面、1試合25分、休憩込み390分の計画例。 独自の得点上限か時間制限を決めます。次へ進む前に両チームで最終得点を確認しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 390 minutos con pausas. Acordad un límite local de puntos o tiempo. Ambos equipos deben confirmar el resultado antes de avanzar. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 390,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "ultimate-friendly-24-knockout",
+    "title": [
+      "Ultimate friendly · 24 knockout",
+      "얼티미트 친선전 · 24 토너먼트",
+      "アルティメット交流戦 · 24 勝ち抜き戦",
+      "Amistoso de ultimate · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 25-minute matches, 595 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 595분 운영 예시입니다.",
+      "5ラウンドで23試合。会場1面、1試合25分、休憩込み595分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 595 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 25-minute matches, 595 minutes including round breaks. Agree on a local points or time cap. Ask both teams to confirm the final score before advancing the bracket. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 595분 운영 예시입니다. 자체 점수 또는 시간 제한을 합의하세요. 대진을 진행하기 전에 두 팀이 최종 점수를 확인하게 하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場1面、1試合25分、休憩込み595分の計画例。 独自の得点上限か時間制限を決めます。次へ進む前に両チームで最終得点を確認しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 595 minutos con pausas. Acordad un límite local de puntos o tiempo. Ambos equipos deben confirmar el resultado antes de avanzar. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 595,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "ultimate-friendly-8-league",
+    "title": [
+      "Ultimate friendly · 8 round robin",
+      "얼티미트 친선전 · 8 풀리그",
+      "アルティメット交流戦 · 8 総当たり",
+      "Amistoso de ultimate · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 25-minute matches, 730 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 730분 운영 예시입니다.",
+      "7ラウンドで28試合。会場1面、1試合25分、休憩込み730分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 730 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 25-minute matches, 730 minutes including round breaks. Agree on a local points or time cap. Ask both teams to confirm the final score before advancing the bracket. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 730분 운영 예시입니다. 자체 점수 또는 시간 제한을 합의하세요. 대진을 진행하기 전에 두 팀이 최종 점수를 확인하게 하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場1面、1試合25分、休憩込み730分の計画例。 独自の得点上限か時間制限を決めます。次へ進む前に両チームで最終得点を確認しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 730 minutos con pausas. Acordad un límite local de puntos o tiempo. Ambos equipos deben confirmar el resultado antes de avanzar. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 730,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "ultimate-friendly-12-league",
+    "title": [
+      "Ultimate friendly · 12 round robin",
+      "얼티미트 친선전 · 12 풀리그",
+      "アルティメット交流戦 · 12 総当たり",
+      "Amistoso de ultimate · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 25-minute matches, 1700 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 1700분 운영 예시입니다.",
+      "11ラウンドで66試合。会場1面、1試合25分、休憩込み1700分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 1700 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 25-minute matches, 1700 minutes including round breaks. Agree on a local points or time cap. Ask both teams to confirm the final score before advancing the bracket. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 25분, 라운드 휴식 포함 1700분 운영 예시입니다. 자체 점수 또는 시간 제한을 합의하세요. 대진을 진행하기 전에 두 팀이 최종 점수를 확인하게 하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場1面、1試合25分、休憩込み1700分の計画例。 独自の得点上限か時間制限を決めます。次へ進む前に両チームで最終得点を確認しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 25 minutos y 1700 minutos con pausas. Acordad un límite local de puntos o tiempo. Ambos equipos deben confirmar el resultado antes de avanzar. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 1700,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "dodgeball-social-16-knockout",
+    "title": [
+      "Dodgeball social · 16 knockout",
+      "피구 친선전 · 16 토너먼트",
+      "ドッジボール交流戦 · 16 勝ち抜き戦",
+      "Encuentro de balón prisionero · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 12-minute matches, 195 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 12분, 라운드 휴식 포함 195분 운영 예시입니다.",
+      "4ラウンドで15試合。会場1面、1試合12分、休憩込み195分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 12 minutos y 195 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 1 playing areas, 12-minute matches, 195 minutes including round breaks. Publish the local rules and give every team the same explanation. Build in a pause to reset the court between rounds. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 1곳, 경기당 12분, 라운드 휴식 포함 195분 운영 예시입니다. 자체 규칙을 공지하고 모든 팀에 같은 설명을 제공하세요. 라운드 사이 코트 정리 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場1面、1試合12分、休憩込み195分の計画例。 独自のルールを全チームへ同じように説明します。ラウンド間にコートを整える時間を設けます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 1 zonas, partidos de 12 minutos y 195 minutos con pausas. Publica las reglas locales para todos por igual. Deja una pausa para preparar la pista entre rondas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 195,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "dodgeball-social-24-knockout",
+    "title": [
+      "Dodgeball social · 24 knockout",
+      "피구 친선전 · 24 토너먼트",
+      "ドッジボール交流戦 · 24 勝ち抜き戦",
+      "Encuentro de balón prisionero · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 12-minute matches, 296 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 12분, 라운드 휴식 포함 296분 운영 예시입니다.",
+      "5ラウンドで23試合。会場1面、1試合12分、休憩込み296分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 12 minutos y 296 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 1 playing areas, 12-minute matches, 296 minutes including round breaks. Publish the local rules and give every team the same explanation. Build in a pause to reset the court between rounds. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 1곳, 경기당 12분, 라운드 휴식 포함 296분 운영 예시입니다. 자체 규칙을 공지하고 모든 팀에 같은 설명을 제공하세요. 라운드 사이 코트 정리 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場1面、1試合12分、休憩込み296分の計画例。 独自のルールを全チームへ同じように説明します。ラウンド間にコートを整える時間を設けます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 1 zonas, partidos de 12 minutos y 296 minutos con pausas. Publica las reglas locales para todos por igual. Deja una pausa para preparar la pista entre rondas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 296,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "dodgeball-social-8-league",
+    "title": [
+      "Dodgeball social · 8 round robin",
+      "피구 친선전 · 8 풀리그",
+      "ドッジボール交流戦 · 8 総当たり",
+      "Encuentro de balón prisionero · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 12-minute matches, 366 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 12분, 라운드 휴식 포함 366분 운영 예시입니다.",
+      "7ラウンドで28試合。会場1面、1試合12分、休憩込み366分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 12 minutos y 366 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 1 playing areas, 12-minute matches, 366 minutes including round breaks. Publish the local rules and give every team the same explanation. Build in a pause to reset the court between rounds. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 1곳, 경기당 12분, 라운드 휴식 포함 366분 운영 예시입니다. 자체 규칙을 공지하고 모든 팀에 같은 설명을 제공하세요. 라운드 사이 코트 정리 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場1面、1試合12分、休憩込み366分の計画例。 独自のルールを全チームへ同じように説明します。ラウンド間にコートを整える時間を設けます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 1 zonas, partidos de 12 minutos y 366 minutos con pausas. Publica las reglas locales para todos por igual. Deja una pausa para preparar la pista entre rondas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 366,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "dodgeball-social-12-league",
+    "title": [
+      "Dodgeball social · 12 round robin",
+      "피구 친선전 · 12 풀리그",
+      "ドッジボール交流戦 · 12 総当たり",
+      "Encuentro de balón prisionero · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 12-minute matches, 842 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 12분, 라운드 휴식 포함 842분 운영 예시입니다.",
+      "11ラウンドで66試合。会場1面、1試合12分、休憩込み842分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 12 minutos y 842 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 1 playing areas, 12-minute matches, 842 minutes including round breaks. Publish the local rules and give every team the same explanation. Build in a pause to reset the court between rounds. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 1곳, 경기당 12분, 라운드 휴식 포함 842분 운영 예시입니다. 자체 규칙을 공지하고 모든 팀에 같은 설명을 제공하세요. 라운드 사이 코트 정리 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場1面、1試合12分、休憩込み842分の計画例。 独自のルールを全チームへ同じように説明します。ラウンド間にコートを整える時間を設けます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 1 zonas, partidos de 12 minutos y 842 minutos con pausas. Publica las reglas locales para todos por igual. Deja una pausa para preparar la pista entre rondas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 1,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 842,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "chess-rapid-16-knockout",
+    "title": [
+      "Rapid chess club · 16 knockout",
+      "체스 빠른 대국 모임 · 16 토너먼트",
+      "チェスクラブ短時間戦 · 16 勝ち抜き戦",
+      "Club de ajedrez rápido · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 20-minute matches, 115 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 20분, 라운드 휴식 포함 115분 운영 예시입니다.",
+      "4ラウンドで15試合。会場4面、1試合20分、休憩込み115分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 20 minutos y 115 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 20-minute matches, 115 minutes including round breaks. This is a knockout or round-robin template, not Swiss pairing. Agree on clock settings and how to handle draws in knockout rounds. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 20분, 라운드 휴식 포함 115분 운영 예시입니다. 스위스 방식이 아닌 토너먼트 또는 풀리그 양식입니다. 시계 설정과 토너먼트 무승부 처리 방법을 합의하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場4面、1試合20分、休憩込み115分の計画例。 スイス式ではなく勝ち抜き戦か総当たりです。持ち時間と勝ち抜き戦の引き分け処理を決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 20 minutos y 115 minutos con pausas. Es eliminación o todos contra todos, no sistema suizo. Acordad el reloj y cómo resolver tablas en eliminatorias. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 115,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "chess-rapid-24-knockout",
+    "title": [
+      "Rapid chess club · 24 knockout",
+      "체스 빠른 대국 모임 · 24 토너먼트",
+      "チェスクラブ短時間戦 · 24 勝ち抜き戦",
+      "Club de ajedrez rápido · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 20-minute matches, 160 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 20분, 라운드 휴식 포함 160분 운영 예시입니다.",
+      "5ラウンドで23試合。会場4面、1試合20分、休憩込み160分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 20 minutos y 160 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 20-minute matches, 160 minutes including round breaks. This is a knockout or round-robin template, not Swiss pairing. Agree on clock settings and how to handle draws in knockout rounds. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 20분, 라운드 휴식 포함 160분 운영 예시입니다. 스위스 방식이 아닌 토너먼트 또는 풀리그 양식입니다. 시계 설정과 토너먼트 무승부 처리 방법을 합의하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場4面、1試合20分、休憩込み160分の計画例。 スイス式ではなく勝ち抜き戦か総当たりです。持ち時間と勝ち抜き戦の引き分け処理を決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 20 minutos y 160 minutos con pausas. Es eliminación o todos contra todos, no sistema suizo. Acordad el reloj y cómo resolver tablas en eliminatorias. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 160,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "chess-rapid-8-league",
+    "title": [
+      "Rapid chess club · 8 round robin",
+      "체스 빠른 대국 모임 · 8 풀리그",
+      "チェスクラブ短時間戦 · 8 総当たり",
+      "Club de ajedrez rápido · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 20-minute matches, 170 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 20분, 라운드 휴식 포함 170분 운영 예시입니다.",
+      "7ラウンドで28試合。会場4面、1試合20分、休憩込み170分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 20 minutos y 170 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 20-minute matches, 170 minutes including round breaks. This is a knockout or round-robin template, not Swiss pairing. Agree on clock settings and how to handle draws in knockout rounds. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 20분, 라운드 휴식 포함 170분 운영 예시입니다. 스위스 방식이 아닌 토너먼트 또는 풀리그 양식입니다. 시계 설정과 토너먼트 무승부 처리 방법을 합의하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場4面、1試合20分、休憩込み170分の計画例。 スイス式ではなく勝ち抜き戦か総当たりです。持ち時間と勝ち抜き戦の引き分け処理を決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 20 minutos y 170 minutos con pausas. Es eliminación o todos contra todos, no sistema suizo. Acordad el reloj y cómo resolver tablas en eliminatorias. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 170,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "chess-rapid-12-league",
+    "title": [
+      "Rapid chess club · 12 round robin",
+      "체스 빠른 대국 모임 · 12 풀리그",
+      "チェスクラブ短時間戦 · 12 総当たり",
+      "Club de ajedrez rápido · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 20-minute matches, 490 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 20분, 라운드 휴식 포함 490분 운영 예시입니다.",
+      "11ラウンドで66試合。会場4面、1試合20分、休憩込み490分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 20 minutos y 490 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 20-minute matches, 490 minutes including round breaks. This is a knockout or round-robin template, not Swiss pairing. Agree on clock settings and how to handle draws in knockout rounds. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 20분, 라운드 휴식 포함 490분 운영 예시입니다. 스위스 방식이 아닌 토너먼트 또는 풀리그 양식입니다. 시계 설정과 토너먼트 무승부 처리 방법을 합의하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場4面、1試合20分、休憩込み490分の計画例。 スイス式ではなく勝ち抜き戦か総当たりです。持ち時間と勝ち抜き戦の引き分け処理を決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 20 minutos y 490 minutos con pausas. Es eliminación o todos contra todos, no sistema suizo. Acordad el reloj y cómo resolver tablas en eliminatorias. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 490,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "checkers-club-16-knockout",
+    "title": [
+      "Checkers club · 16 knockout",
+      "체커 모임 · 16 토너먼트",
+      "チェッカークラブ · 16 勝ち抜き戦",
+      "Club de damas · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 15-minute matches, 90 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 90분 운영 예시입니다.",
+      "4ラウンドで15試合。会場4面、1試合15分、休憩込み90分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 90 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 15-minute matches, 90 minutes including round breaks. Confirm the board variant and capture rules before pairing. Keep a visible result sheet for finished games. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 90분 운영 예시입니다. 대진 전에 보드 종류와 잡기 규칙을 확인하세요. 끝난 경기 결과표를 보이게 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場4面、1試合15分、休憩込み90分の計画例。 対戦前に盤の種類と駒を取る規則を確認します。終了した対局の結果を見える場所に置きます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 90 minutos con pausas. Confirma la variante y las capturas antes de emparejar. Mantén visibles los resultados terminados. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 90,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "checkers-club-24-knockout",
+    "title": [
+      "Checkers club · 24 knockout",
+      "체커 모임 · 24 토너먼트",
+      "チェッカークラブ · 24 勝ち抜き戦",
+      "Club de damas · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 15-minute matches, 125 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 125분 운영 예시입니다.",
+      "5ラウンドで23試合。会場4面、1試合15分、休憩込み125分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 125 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 15-minute matches, 125 minutes including round breaks. Confirm the board variant and capture rules before pairing. Keep a visible result sheet for finished games. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 125분 운영 예시입니다. 대진 전에 보드 종류와 잡기 규칙을 확인하세요. 끝난 경기 결과표를 보이게 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場4面、1試合15分、休憩込み125分の計画例。 対戦前に盤の種類と駒を取る規則を確認します。終了した対局の結果を見える場所に置きます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 125 minutos con pausas. Confirma la variante y las capturas antes de emparejar. Mantén visibles los resultados terminados. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 125,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "checkers-club-8-league",
+    "title": [
+      "Checkers club · 8 round robin",
+      "체커 모임 · 8 풀리그",
+      "チェッカークラブ · 8 総当たり",
+      "Club de damas · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 15-minute matches, 135 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 135분 운영 예시입니다.",
+      "7ラウンドで28試合。会場4面、1試合15分、休憩込み135分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 135 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 15-minute matches, 135 minutes including round breaks. Confirm the board variant and capture rules before pairing. Keep a visible result sheet for finished games. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 135분 운영 예시입니다. 대진 전에 보드 종류와 잡기 규칙을 확인하세요. 끝난 경기 결과표를 보이게 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場4面、1試合15分、休憩込み135分の計画例。 対戦前に盤の種類と駒を取る規則を確認します。終了した対局の結果を見える場所に置きます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 135 minutos con pausas. Confirma la variante y las capturas antes de emparejar. Mantén visibles los resultados terminados. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 135,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "checkers-club-12-league",
+    "title": [
+      "Checkers club · 12 round robin",
+      "체커 모임 · 12 풀리그",
+      "チェッカークラブ · 12 総当たり",
+      "Club de damas · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 15-minute matches, 380 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 380분 운영 예시입니다.",
+      "11ラウンドで66試合。会場4面、1試合15分、休憩込み380分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 380 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 15-minute matches, 380 minutes including round breaks. Confirm the board variant and capture rules before pairing. Keep a visible result sheet for finished games. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 380분 운영 예시입니다. 대진 전에 보드 종류와 잡기 규칙을 확인하세요. 끝난 경기 결과표를 보이게 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場4面、1試合15分、休憩込み380分の計画例。 対戦前に盤の種類と駒を取る規則を確認します。終了した対局の結果を見える場所に置きます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 380 minutos con pausas. Confirma la variante y las capturas antes de emparejar. Mantén visibles los resultados terminados. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 380,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "go-beginners-16-knockout",
+    "title": [
+      "Beginner Go club · 16 knockout",
+      "바둑 입문 모임 · 16 토너먼트",
+      "囲碁入門会 · 16 勝ち抜き戦",
+      "Club de go inicial · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 25-minute matches, 140 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 25분, 라운드 휴식 포함 140분 운영 예시입니다.",
+      "4ラウンドで15試合。会場4面、1試合25分、休憩込み140分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 25 minutos y 140 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 25-minute matches, 140 minutes including round breaks. Agree on board size and scoring method before play. This tool does not calculate territory, handicap stones or tie-break systems. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 25분, 라운드 휴식 포함 140분 운영 예시입니다. 시작 전에 바둑판 크기와 계가 방식을 합의하세요. 집 계산, 접바둑 돌, 동률 규정은 이 도구가 계산하지 않습니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場4面、1試合25分、休憩込み140分の計画例。 盤の大きさと得点方法を事前に決めます。地や置き石、同点順位の計算はこのツールでは行いません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 25 minutos y 140 minutos con pausas. Acordad tamaño del tablero y puntuación. La herramienta no calcula territorio, hándicap ni desempates especiales. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 140,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "go-beginners-24-knockout",
+    "title": [
+      "Beginner Go club · 24 knockout",
+      "바둑 입문 모임 · 24 토너먼트",
+      "囲碁入門会 · 24 勝ち抜き戦",
+      "Club de go inicial · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 25-minute matches, 195 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 25분, 라운드 휴식 포함 195분 운영 예시입니다.",
+      "5ラウンドで23試合。会場4面、1試合25分、休憩込み195分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 25 minutos y 195 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 25-minute matches, 195 minutes including round breaks. Agree on board size and scoring method before play. This tool does not calculate territory, handicap stones or tie-break systems. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 25분, 라운드 휴식 포함 195분 운영 예시입니다. 시작 전에 바둑판 크기와 계가 방식을 합의하세요. 집 계산, 접바둑 돌, 동률 규정은 이 도구가 계산하지 않습니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場4面、1試合25分、休憩込み195分の計画例。 盤の大きさと得点方法を事前に決めます。地や置き石、同点順位の計算はこのツールでは行いません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 25 minutos y 195 minutos con pausas. Acordad tamaño del tablero y puntuación. La herramienta no calcula territorio, hándicap ni desempates especiales. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 195,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "go-beginners-8-league",
+    "title": [
+      "Beginner Go club · 8 round robin",
+      "바둑 입문 모임 · 8 풀리그",
+      "囲碁入門会 · 8 総当たり",
+      "Club de go inicial · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 25-minute matches, 205 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 25분, 라운드 휴식 포함 205분 운영 예시입니다.",
+      "7ラウンドで28試合。会場4面、1試合25分、休憩込み205分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 25 minutos y 205 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 25-minute matches, 205 minutes including round breaks. Agree on board size and scoring method before play. This tool does not calculate territory, handicap stones or tie-break systems. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 25분, 라운드 휴식 포함 205분 운영 예시입니다. 시작 전에 바둑판 크기와 계가 방식을 합의하세요. 집 계산, 접바둑 돌, 동률 규정은 이 도구가 계산하지 않습니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場4面、1試合25分、休憩込み205分の計画例。 盤の大きさと得点方法を事前に決めます。地や置き石、同点順位の計算はこのツールでは行いません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 25 minutos y 205 minutos con pausas. Acordad tamaño del tablero y puntuación. La herramienta no calcula territorio, hándicap ni desempates especiales. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 205,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "go-beginners-12-league",
+    "title": [
+      "Beginner Go club · 12 round robin",
+      "바둑 입문 모임 · 12 풀리그",
+      "囲碁入門会 · 12 総当たり",
+      "Club de go inicial · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 25-minute matches, 600 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 25분, 라운드 휴식 포함 600분 운영 예시입니다.",
+      "11ラウンドで66試合。会場4面、1試合25分、休憩込み600分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 25 minutos y 600 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 25-minute matches, 600 minutes including round breaks. Agree on board size and scoring method before play. This tool does not calculate territory, handicap stones or tie-break systems. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 25분, 라운드 휴식 포함 600분 운영 예시입니다. 시작 전에 바둑판 크기와 계가 방식을 합의하세요. 집 계산, 접바둑 돌, 동률 규정은 이 도구가 계산하지 않습니다. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場4面、1試合25分、休憩込み600分の計画例。 盤の大きさと得点方法を事前に決めます。地や置き石、同点順位の計算はこのツールでは行いません。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 25 minutos y 600 minutos con pausas. Acordad tamaño del tablero y puntuación. La herramienta no calcula territorio, hándicap ni desempates especiales. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 600,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "reversi-meetup-16-knockout",
+    "title": [
+      "Reversi meetup · 16 knockout",
+      "리버시 모임 · 16 토너먼트",
+      "リバーシ交流会 · 16 勝ち抜き戦",
+      "Encuentro de reversi · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 15-minute matches, 90 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 90분 운영 예시입니다.",
+      "4ラウンドで15試合。会場4面、1試合15分、休憩込み90分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 90 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 15-minute matches, 90 minutes including round breaks. Count the final discs together and enter the agreed result. If using knockout, decide how to resolve an equal disc count. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 90분 운영 예시입니다. 마지막 돌 수를 함께 세고 합의한 결과를 입력하세요. 토너먼트라면 같은 돌 수일 때 처리 방식을 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場4面、1試合15分、休憩込み90分の計画例。 最後の石を一緒に数えて結果を入力します。勝ち抜き戦なら同数の場合の扱いを決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 90 minutos con pausas. Contad juntos las fichas finales e introducid el resultado. Acordad qué hacer con un empate en eliminación. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 90,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "reversi-meetup-24-knockout",
+    "title": [
+      "Reversi meetup · 24 knockout",
+      "리버시 모임 · 24 토너먼트",
+      "リバーシ交流会 · 24 勝ち抜き戦",
+      "Encuentro de reversi · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 15-minute matches, 125 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 125분 운영 예시입니다.",
+      "5ラウンドで23試合。会場4面、1試合15分、休憩込み125分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 125 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 15-minute matches, 125 minutes including round breaks. Count the final discs together and enter the agreed result. If using knockout, decide how to resolve an equal disc count. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 125분 운영 예시입니다. 마지막 돌 수를 함께 세고 합의한 결과를 입력하세요. 토너먼트라면 같은 돌 수일 때 처리 방식을 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場4面、1試合15分、休憩込み125分の計画例。 最後の石を一緒に数えて結果を入力します。勝ち抜き戦なら同数の場合の扱いを決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 125 minutos con pausas. Contad juntos las fichas finales e introducid el resultado. Acordad qué hacer con un empate en eliminación. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 125,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "reversi-meetup-8-league",
+    "title": [
+      "Reversi meetup · 8 round robin",
+      "리버시 모임 · 8 풀리그",
+      "リバーシ交流会 · 8 総当たり",
+      "Encuentro de reversi · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 15-minute matches, 135 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 135분 운영 예시입니다.",
+      "7ラウンドで28試合。会場4面、1試合15分、休憩込み135分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 135 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 15-minute matches, 135 minutes including round breaks. Count the final discs together and enter the agreed result. If using knockout, decide how to resolve an equal disc count. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 135분 운영 예시입니다. 마지막 돌 수를 함께 세고 합의한 결과를 입력하세요. 토너먼트라면 같은 돌 수일 때 처리 방식을 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場4面、1試合15分、休憩込み135分の計画例。 最後の石を一緒に数えて結果を入力します。勝ち抜き戦なら同数の場合の扱いを決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 135 minutos con pausas. Contad juntos las fichas finales e introducid el resultado. Acordad qué hacer con un empate en eliminación. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 135,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "reversi-meetup-12-league",
+    "title": [
+      "Reversi meetup · 12 round robin",
+      "리버시 모임 · 12 풀리그",
+      "リバーシ交流会 · 12 総当たり",
+      "Encuentro de reversi · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 15-minute matches, 380 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 380분 운영 예시입니다.",
+      "11ラウンドで66試合。会場4面、1試合15分、休憩込み380分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 380 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 15-minute matches, 380 minutes including round breaks. Count the final discs together and enter the agreed result. If using knockout, decide how to resolve an equal disc count. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 380분 운영 예시입니다. 마지막 돌 수를 함께 세고 합의한 결과를 입력하세요. 토너먼트라면 같은 돌 수일 때 처리 방식을 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場4面、1試合15分、休憩込み380分の計画例。 最後の石を一緒に数えて結果を入力します。勝ち抜き戦なら同数の場合の扱いを決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 380 minutos con pausas. Contad juntos las fichas finales e introducid el resultado. Acordad qué hacer con un empate en eliminación. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 380,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "connect-four-16-knockout",
+    "title": [
+      "Connect-four meetup · 16 knockout",
+      "사목 모임 · 16 토너먼트",
+      "四目並べ交流会 · 16 勝ち抜き戦",
+      "Encuentro de cuatro en raya · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 8-minute matches, 55 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 8분, 라운드 휴식 포함 55분 운영 예시입니다.",
+      "4ラウンドで15試合。会場4面、1試合8分、休憩込み55分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 8 minutos y 55 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 8-minute matches, 55 minutes including round breaks. Agree whether a match means one board or a short series. Reset the board after reporting the result. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 8분, 라운드 휴식 포함 55분 운영 예시입니다. 한 판인지 짧은 여러 판인지 경기 단위를 합의하세요. 결과를 보고한 뒤 보드를 비우세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場4面、1試合8分、休憩込み55分の計画例。 1局か短いシリーズかを決めます。結果を報告してから盤を片付けましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 8 minutos y 55 minutos con pausas. Acordad si el partido es una partida o una serie corta. Vacía el tablero tras comunicar el resultado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 8,
+      "breakMinutes": 5,
+      "totalMinutes": 55,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "connect-four-24-knockout",
+    "title": [
+      "Connect-four meetup · 24 knockout",
+      "사목 모임 · 24 토너먼트",
+      "四目並べ交流会 · 24 勝ち抜き戦",
+      "Encuentro de cuatro en raya · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 8-minute matches, 76 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 8분, 라운드 휴식 포함 76분 운영 예시입니다.",
+      "5ラウンドで23試合。会場4面、1試合8分、休憩込み76分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 8 minutos y 76 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 8-minute matches, 76 minutes including round breaks. Agree whether a match means one board or a short series. Reset the board after reporting the result. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 8분, 라운드 휴식 포함 76분 운영 예시입니다. 한 판인지 짧은 여러 판인지 경기 단위를 합의하세요. 결과를 보고한 뒤 보드를 비우세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場4面、1試合8分、休憩込み76分の計画例。 1局か短いシリーズかを決めます。結果を報告してから盤を片付けましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 8 minutos y 76 minutos con pausas. Acordad si el partido es una partida o una serie corta. Vacía el tablero tras comunicar el resultado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 8,
+      "breakMinutes": 5,
+      "totalMinutes": 76,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "connect-four-8-league",
+    "title": [
+      "Connect-four meetup · 8 round robin",
+      "사목 모임 · 8 풀리그",
+      "四目並べ交流会 · 8 総当たり",
+      "Encuentro de cuatro en raya · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 8-minute matches, 86 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 8분, 라운드 휴식 포함 86분 운영 예시입니다.",
+      "7ラウンドで28試合。会場4面、1試合8分、休憩込み86分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 8 minutos y 86 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 8-minute matches, 86 minutes including round breaks. Agree whether a match means one board or a short series. Reset the board after reporting the result. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 8분, 라운드 휴식 포함 86분 운영 예시입니다. 한 판인지 짧은 여러 판인지 경기 단위를 합의하세요. 결과를 보고한 뒤 보드를 비우세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場4面、1試合8分、休憩込み86分の計画例。 1局か短いシリーズかを決めます。結果を報告してから盤を片付けましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 8 minutos y 86 minutos con pausas. Acordad si el partido es una partida o una serie corta. Vacía el tablero tras comunicar el resultado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 8,
+      "breakMinutes": 5,
+      "totalMinutes": 86,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "connect-four-12-league",
+    "title": [
+      "Connect-four meetup · 12 round robin",
+      "사목 모임 · 12 풀리그",
+      "四目並べ交流会 · 12 総当たり",
+      "Encuentro de cuatro en raya · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 8-minute matches, 226 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 8분, 라운드 휴식 포함 226분 운영 예시입니다.",
+      "11ラウンドで66試合。会場4面、1試合8分、休憩込み226分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 8 minutos y 226 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 8-minute matches, 226 minutes including round breaks. Agree whether a match means one board or a short series. Reset the board after reporting the result. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 8분, 라운드 휴식 포함 226분 운영 예시입니다. 한 판인지 짧은 여러 판인지 경기 단위를 합의하세요. 결과를 보고한 뒤 보드를 비우세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場4面、1試合8分、休憩込み226分の計画例。 1局か短いシリーズかを決めます。結果を報告してから盤を片付けましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 8 minutos y 226 minutos con pausas. Acordad si el partido es una partida o una serie corta. Vacía el tablero tras comunicar el resultado. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 8,
+      "breakMinutes": 5,
+      "totalMinutes": 226,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "domino-duel-16-knockout",
+    "title": [
+      "Domino duel · 16 knockout",
+      "도미노 대결 · 16 토너먼트",
+      "ドミノ対戦 · 16 勝ち抜き戦",
+      "Duelo de dominó · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 15-minute matches, 90 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 90분 운영 예시입니다.",
+      "4ラウンドで15試合。会場4面、1試合15分、休憩込み90分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 90 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 4 playing areas, 15-minute matches, 90 minutes including round breaks. Use one consistent domino variant for everyone. Decide the score to report and the treatment of a blocked game before starting. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 90분 운영 예시입니다. 모두 같은 도미노 규칙을 사용하세요. 기록할 점수와 막힌 게임 처리 방식을 미리 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場4面、1試合15分、休憩込み90分の計画例。 全員で同じルールを使います。記録する得点と手詰まり時の扱いを事前に決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 90 minutos con pausas. Usa una variante común. Decide qué puntuación registrar y cómo tratar una partida bloqueada. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 90,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "domino-duel-24-knockout",
+    "title": [
+      "Domino duel · 24 knockout",
+      "도미노 대결 · 24 토너먼트",
+      "ドミノ対戦 · 24 勝ち抜き戦",
+      "Duelo de dominó · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 15-minute matches, 125 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 125분 운영 예시입니다.",
+      "5ラウンドで23試合。会場4面、1試合15分、休憩込み125分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 125 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 4 playing areas, 15-minute matches, 125 minutes including round breaks. Use one consistent domino variant for everyone. Decide the score to report and the treatment of a blocked game before starting. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 125분 운영 예시입니다. 모두 같은 도미노 규칙을 사용하세요. 기록할 점수와 막힌 게임 처리 방식을 미리 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場4面、1試合15分、休憩込み125分の計画例。 全員で同じルールを使います。記録する得点と手詰まり時の扱いを事前に決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 125 minutos con pausas. Usa una variante común. Decide qué puntuación registrar y cómo tratar una partida bloqueada. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 125,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "domino-duel-8-league",
+    "title": [
+      "Domino duel · 8 round robin",
+      "도미노 대결 · 8 풀리그",
+      "ドミノ対戦 · 8 総当たり",
+      "Duelo de dominó · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 15-minute matches, 135 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 135분 운영 예시입니다.",
+      "7ラウンドで28試合。会場4面、1試合15分、休憩込み135分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 135 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 4 playing areas, 15-minute matches, 135 minutes including round breaks. Use one consistent domino variant for everyone. Decide the score to report and the treatment of a blocked game before starting. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 135분 운영 예시입니다. 모두 같은 도미노 규칙을 사용하세요. 기록할 점수와 막힌 게임 처리 방식을 미리 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場4面、1試合15分、休憩込み135分の計画例。 全員で同じルールを使います。記録する得点と手詰まり時の扱いを事前に決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 135 minutos con pausas. Usa una variante común. Decide qué puntuación registrar y cómo tratar una partida bloqueada. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 135,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "domino-duel-12-league",
+    "title": [
+      "Domino duel · 12 round robin",
+      "도미노 대결 · 12 풀리그",
+      "ドミノ対戦 · 12 総当たり",
+      "Duelo de dominó · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 15-minute matches, 380 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 380분 운영 예시입니다.",
+      "11ラウンドで66試合。会場4面、1試合15分、休憩込み380分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 380 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 4 playing areas, 15-minute matches, 380 minutes including round breaks. Use one consistent domino variant for everyone. Decide the score to report and the treatment of a blocked game before starting. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 4곳, 경기당 15분, 라운드 휴식 포함 380분 운영 예시입니다. 모두 같은 도미노 규칙을 사용하세요. 기록할 점수와 막힌 게임 처리 방식을 미리 정하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場4面、1試合15分、休憩込み380分の計画例。 全員で同じルールを使います。記録する得点と手詰まり時の扱いを事前に決めます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 4 zonas, partidos de 15 minutos y 380 minutos con pausas. Usa una variante común. Decide qué puntuación registrar y cómo tratar una partida bloqueada. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 4,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 380,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "foosball-social-16-knockout",
+    "title": [
+      "Foosball social · 16 knockout",
+      "테이블 축구 모임 · 16 토너먼트",
+      "テーブルサッカー会 · 16 勝ち抜き戦",
+      "Encuentro de futbolín · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 10-minute matches, 95 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 10분, 라운드 휴식 포함 95분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合10分、休憩込み95分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 10 minutos y 95 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 10-minute matches, 95 minutes including round breaks. Enter singles players or fixed pairs. Keep handles and table space available for the next scheduled match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 10분, 라운드 휴식 포함 95분 운영 예시입니다. 개인 또는 고정 복식 조를 입력하세요. 다음 경기 참가자가 사용할 손잡이와 주변 공간을 확보하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合10分、休憩込み95分の計画例。 個人または固定ペアを入力します。次の対戦者が使えるよう、台の周りを空けます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 10 minutos y 95 minutos con pausas. Introduce jugadores o parejas fijas. Deja disponibles los mandos y el espacio para el siguiente partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 10,
+      "breakMinutes": 5,
+      "totalMinutes": 95,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "foosball-social-24-knockout",
+    "title": [
+      "Foosball social · 24 knockout",
+      "테이블 축구 모임 · 24 토너먼트",
+      "テーブルサッカー会 · 24 勝ち抜き戦",
+      "Encuentro de futbolín · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 10-minute matches, 140 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 10분, 라운드 휴식 포함 140분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合10分、休憩込み140分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 10 minutos y 140 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 10-minute matches, 140 minutes including round breaks. Enter singles players or fixed pairs. Keep handles and table space available for the next scheduled match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 10분, 라운드 휴식 포함 140분 운영 예시입니다. 개인 또는 고정 복식 조를 입력하세요. 다음 경기 참가자가 사용할 손잡이와 주변 공간을 확보하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合10分、休憩込み140分の計画例。 個人または固定ペアを入力します。次の対戦者が使えるよう、台の周りを空けます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 10 minutos y 140 minutos con pausas. Introduce jugadores o parejas fijas. Deja disponibles los mandos y el espacio para el siguiente partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 10,
+      "breakMinutes": 5,
+      "totalMinutes": 140,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "foosball-social-8-league",
+    "title": [
+      "Foosball social · 8 round robin",
+      "테이블 축구 모임 · 8 풀리그",
+      "テーブルサッカー会 · 8 総当たり",
+      "Encuentro de futbolín · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 10-minute matches, 170 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 10분, 라운드 휴식 포함 170분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合10分、休憩込み170分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 10 minutos y 170 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 10-minute matches, 170 minutes including round breaks. Enter singles players or fixed pairs. Keep handles and table space available for the next scheduled match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 10분, 라운드 휴식 포함 170분 운영 예시입니다. 개인 또는 고정 복식 조를 입력하세요. 다음 경기 참가자가 사용할 손잡이와 주변 공간을 확보하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合10分、休憩込み170分の計画例。 個人または固定ペアを入力します。次の対戦者が使えるよう、台の周りを空けます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 10 minutos y 170 minutos con pausas. Introduce jugadores o parejas fijas. Deja disponibles los mandos y el espacio para el siguiente partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 10,
+      "breakMinutes": 5,
+      "totalMinutes": 170,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "foosball-social-12-league",
+    "title": [
+      "Foosball social · 12 round robin",
+      "테이블 축구 모임 · 12 풀리그",
+      "テーブルサッカー会 · 12 総当たり",
+      "Encuentro de futbolín · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 10-minute matches, 380 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 10분, 라운드 휴식 포함 380분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合10分、休憩込み380分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 10 minutos y 380 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 10-minute matches, 380 minutes including round breaks. Enter singles players or fixed pairs. Keep handles and table space available for the next scheduled match. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 10분, 라운드 휴식 포함 380분 운영 예시입니다. 개인 또는 고정 복식 조를 입력하세요. 다음 경기 참가자가 사용할 손잡이와 주변 공간을 확보하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合10分、休憩込み380分の計画例。 個人または固定ペアを入力します。次の対戦者が使えるよう、台の周りを空けます。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 10 minutos y 380 minutos con pausas. Introduce jugadores o parejas fijas. Deja disponibles los mandos y el espacio para el siguiente partido. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 10,
+      "breakMinutes": 5,
+      "totalMinutes": 380,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "air-hockey-16-knockout",
+    "title": [
+      "Air hockey meetup · 16 knockout",
+      "에어하키 모임 · 16 토너먼트",
+      "エアホッケー交流会 · 16 勝ち抜き戦",
+      "Encuentro de hockey de aire · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 8-minute matches, 79 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 8분, 라운드 휴식 포함 79분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合8分、休憩込み79分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 8 minutos y 79 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 8-minute matches, 79 minutes including round breaks. Agree on a local goal target. Report the result before resetting the score display. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 8분, 라운드 휴식 포함 79분 운영 예시입니다. 자체 목표 골 수를 합의하세요. 점수 표시를 초기화하기 전에 결과를 보고하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合8分、休憩込み79分の計画例。 目標ゴール数を決めます。得点表示をリセットする前に結果を報告しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 8 minutos y 79 minutos con pausas. Acordad el número de goles. Comunica el resultado antes de reiniciar el marcador. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 8,
+      "breakMinutes": 5,
+      "totalMinutes": 79,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "air-hockey-24-knockout",
+    "title": [
+      "Air hockey meetup · 24 knockout",
+      "에어하키 모임 · 24 토너먼트",
+      "エアホッケー交流会 · 24 勝ち抜き戦",
+      "Encuentro de hockey de aire · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 8-minute matches, 116 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 8분, 라운드 휴식 포함 116분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合8分、休憩込み116分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 8 minutos y 116 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 8-minute matches, 116 minutes including round breaks. Agree on a local goal target. Report the result before resetting the score display. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 8분, 라운드 휴식 포함 116분 운영 예시입니다. 자체 목표 골 수를 합의하세요. 점수 표시를 초기화하기 전에 결과를 보고하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合8分、休憩込み116分の計画例。 目標ゴール数を決めます。得点表示をリセットする前に結果を報告しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 8 minutos y 116 minutos con pausas. Acordad el número de goles. Comunica el resultado antes de reiniciar el marcador. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 8,
+      "breakMinutes": 5,
+      "totalMinutes": 116,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "air-hockey-8-league",
+    "title": [
+      "Air hockey meetup · 8 round robin",
+      "에어하키 모임 · 8 풀리그",
+      "エアホッケー交流会 · 8 総当たり",
+      "Encuentro de hockey de aire · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 8-minute matches, 142 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 8분, 라운드 휴식 포함 142분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合8分、休憩込み142分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 8 minutos y 142 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 8-minute matches, 142 minutes including round breaks. Agree on a local goal target. Report the result before resetting the score display. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 8분, 라운드 휴식 포함 142분 운영 예시입니다. 자체 목표 골 수를 합의하세요. 점수 표시를 초기화하기 전에 결과를 보고하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合8分、休憩込み142分の計画例。 目標ゴール数を決めます。得点表示をリセットする前に結果を報告しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 8 minutos y 142 minutos con pausas. Acordad el número de goles. Comunica el resultado antes de reiniciar el marcador. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 8,
+      "breakMinutes": 5,
+      "totalMinutes": 142,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "air-hockey-12-league",
+    "title": [
+      "Air hockey meetup · 12 round robin",
+      "에어하키 모임 · 12 풀리그",
+      "エアホッケー交流会 · 12 総当たり",
+      "Encuentro de hockey de aire · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 8-minute matches, 314 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 8분, 라운드 휴식 포함 314분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合8分、休憩込み314分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 8 minutos y 314 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 8-minute matches, 314 minutes including round breaks. Agree on a local goal target. Report the result before resetting the score display. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 8분, 라운드 휴식 포함 314분 운영 예시입니다. 자체 목표 골 수를 합의하세요. 점수 표시를 초기화하기 전에 결과를 보고하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合8分、休憩込み314分の計画例。 目標ゴール数を決めます。得点表示をリセットする前に結果を報告しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 8 minutos y 314 minutos con pausas. Acordad el número de goles. Comunica el resultado antes de reiniciar el marcador. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 8,
+      "breakMinutes": 5,
+      "totalMinutes": 314,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "petanque-pairs-16-knockout",
+    "title": [
+      "Pétanque pairs · 16 knockout",
+      "페탕크 복식 모임 · 16 토너먼트",
+      "ペタンクペア戦 · 16 勝ち抜き戦",
+      "Parejas de petanca · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 30-minute matches, 255 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 30분, 라운드 휴식 포함 255분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合30分、休憩込み255分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 30 minutos y 255 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 30-minute matches, 255 minutes including round breaks. Use one entry for each pair and label the playing lanes. Allow time to collect equipment before the next round. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 30분, 라운드 휴식 포함 255분 운영 예시입니다. 조마다 한 항목을 사용하고 경기 구역을 표시하세요. 다음 라운드 전에 장비를 모을 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合30分、休憩込み255分の計画例。 ペアごとに1項目を使い、レーンを表示します。次のラウンド前に道具を集める時間を取りましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 30 minutos y 255 minutos con pausas. Introduce una entrada por pareja y señala las pistas. Deja tiempo para recoger material entre rondas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 30,
+      "breakMinutes": 5,
+      "totalMinutes": 255,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "petanque-pairs-24-knockout",
+    "title": [
+      "Pétanque pairs · 24 knockout",
+      "페탕크 복식 모임 · 24 토너먼트",
+      "ペタンクペア戦 · 24 勝ち抜き戦",
+      "Parejas de petanca · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 30-minute matches, 380 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 30분, 라운드 휴식 포함 380분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合30分、休憩込み380分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 30 minutos y 380 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 30-minute matches, 380 minutes including round breaks. Use one entry for each pair and label the playing lanes. Allow time to collect equipment before the next round. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 30분, 라운드 휴식 포함 380분 운영 예시입니다. 조마다 한 항목을 사용하고 경기 구역을 표시하세요. 다음 라운드 전에 장비를 모을 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合30分、休憩込み380分の計画例。 ペアごとに1項目を使い、レーンを表示します。次のラウンド前に道具を集める時間を取りましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 30 minutos y 380 minutos con pausas. Introduce una entrada por pareja y señala las pistas. Deja tiempo para recoger material entre rondas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 30,
+      "breakMinutes": 5,
+      "totalMinutes": 380,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "petanque-pairs-8-league",
+    "title": [
+      "Pétanque pairs · 8 round robin",
+      "페탕크 복식 모임 · 8 풀리그",
+      "ペタンクペア戦 · 8 総当たり",
+      "Parejas de petanca · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 30-minute matches, 450 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 30분, 라운드 휴식 포함 450분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合30分、休憩込み450分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 30 minutos y 450 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 30-minute matches, 450 minutes including round breaks. Use one entry for each pair and label the playing lanes. Allow time to collect equipment before the next round. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 30분, 라운드 휴식 포함 450분 운영 예시입니다. 조마다 한 항목을 사용하고 경기 구역을 표시하세요. 다음 라운드 전에 장비를 모을 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合30分、休憩込み450分の計画例。 ペアごとに1項目を使い、レーンを表示します。次のラウンド前に道具を集める時間を取りましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 30 minutos y 450 minutos con pausas. Introduce una entrada por pareja y señala las pistas. Deja tiempo para recoger material entre rondas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 30,
+      "breakMinutes": 5,
+      "totalMinutes": 450,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "petanque-pairs-12-league",
+    "title": [
+      "Pétanque pairs · 12 round robin",
+      "페탕크 복식 모임 · 12 풀리그",
+      "ペタンクペア戦 · 12 総当たり",
+      "Parejas de petanca · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 30-minute matches, 1040 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 30분, 라운드 휴식 포함 1040분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合30分、休憩込み1040分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 30 minutos y 1040 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 30-minute matches, 1040 minutes including round breaks. Use one entry for each pair and label the playing lanes. Allow time to collect equipment before the next round. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 30분, 라운드 휴식 포함 1040분 운영 예시입니다. 조마다 한 항목을 사용하고 경기 구역을 표시하세요. 다음 라운드 전에 장비를 모을 시간을 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合30分、休憩込み1040分の計画例。 ペアごとに1項目を使い、レーンを表示します。次のラウンド前に道具を集める時間を取りましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 30 minutos y 1040 minutos con pausas. Introduce una entrada por pareja y señala las pistas. Deja tiempo para recoger material entre rondas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 30,
+      "breakMinutes": 5,
+      "totalMinutes": 1040,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "bocce-social-16-knockout",
+    "title": [
+      "Bocce social · 16 knockout",
+      "보체 친선전 · 16 토너먼트",
+      "ボッチェ交流戦 · 16 勝ち抜き戦",
+      "Encuentro de bochas · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 25-minute matches, 215 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 215분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合25分、休憩込み215分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 215 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 25-minute matches, 215 minutes including round breaks. Agree on the local game format and measurement procedure. Record confirmed scores only after both sides agree. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 215분 운영 예시입니다. 자체 경기 방식과 거리 측정 절차를 합의하세요. 양쪽이 동의한 점수만 기록하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合25分、休憩込み215分の計画例。 独自の形式と測定手順を決めます。双方が同意した得点だけを入力します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 215 minutos con pausas. Acordad el formato y cómo medir. Registra los puntos después de la confirmación de ambas partes. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 215,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "bocce-social-24-knockout",
+    "title": [
+      "Bocce social · 24 knockout",
+      "보체 친선전 · 24 토너먼트",
+      "ボッチェ交流戦 · 24 勝ち抜き戦",
+      "Encuentro de bochas · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 25-minute matches, 320 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 320분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合25分、休憩込み320分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 320 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 25-minute matches, 320 minutes including round breaks. Agree on the local game format and measurement procedure. Record confirmed scores only after both sides agree. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 320분 운영 예시입니다. 자체 경기 방식과 거리 측정 절차를 합의하세요. 양쪽이 동의한 점수만 기록하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合25分、休憩込み320分の計画例。 独自の形式と測定手順を決めます。双方が同意した得点だけを入力します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 320 minutos con pausas. Acordad el formato y cómo medir. Registra los puntos después de la confirmación de ambas partes. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 320,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "bocce-social-8-league",
+    "title": [
+      "Bocce social · 8 round robin",
+      "보체 친선전 · 8 풀리그",
+      "ボッチェ交流戦 · 8 総当たり",
+      "Encuentro de bochas · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 25-minute matches, 380 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 380분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合25分、休憩込み380分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 380 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 25-minute matches, 380 minutes including round breaks. Agree on the local game format and measurement procedure. Record confirmed scores only after both sides agree. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 380분 운영 예시입니다. 자체 경기 방식과 거리 측정 절차를 합의하세요. 양쪽이 동의한 점수만 기록하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合25分、休憩込み380分の計画例。 独自の形式と測定手順を決めます。双方が同意した得点だけを入力します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 380 minutos con pausas. Acordad el formato y cómo medir. Registra los puntos después de la confirmación de ambas partes. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 380,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "bocce-social-12-league",
+    "title": [
+      "Bocce social · 12 round robin",
+      "보체 친선전 · 12 풀리그",
+      "ボッチェ交流戦 · 12 総当たり",
+      "Encuentro de bochas · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 25-minute matches, 875 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 875분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合25分、休憩込み875分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 875 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 25-minute matches, 875 minutes including round breaks. Agree on the local game format and measurement procedure. Record confirmed scores only after both sides agree. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 25분, 라운드 휴식 포함 875분 운영 예시입니다. 자체 경기 방식과 거리 측정 절차를 합의하세요. 양쪽이 동의한 점수만 기록하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合25分、休憩込み875分の計画例。 独自の形式と測定手順を決めます。双方が同意した得点だけを入力します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 25 minutos y 875 minutos con pausas. Acordad el formato y cómo medir. Registra los puntos después de la confirmación de ambas partes. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 25,
+      "breakMinutes": 5,
+      "totalMinutes": 875,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "cornhole-pairs-16-knockout",
+    "title": [
+      "Cornhole pairs · 16 knockout",
+      "콘홀 복식 모임 · 16 토너먼트",
+      "コーンホールペア戦 · 16 勝ち抜き戦",
+      "Parejas de cornhole · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 15-minute matches, 135 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 135분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合15分、休憩込み135分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 135 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 15-minute matches, 135 minutes including round breaks. Enter fixed pairs and agree on the scoring convention. Leave a clear changeover between matches. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 135분 운영 예시입니다. 고정된 조와 점수 방식을 정하세요. 경기 사이 교대 시간을 분명히 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合15分、休憩込み135分の計画例。 固定ペアと得点方式を決めます。試合間の交代時間を確保しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 135 minutos con pausas. Introduce parejas fijas y acuerda la puntuación. Deja tiempo para cambiar de jugadores. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 135,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "cornhole-pairs-24-knockout",
+    "title": [
+      "Cornhole pairs · 24 knockout",
+      "콘홀 복식 모임 · 24 토너먼트",
+      "コーンホールペア戦 · 24 勝ち抜き戦",
+      "Parejas de cornhole · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 15-minute matches, 200 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 200분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合15分、休憩込み200分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 200 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 15-minute matches, 200 minutes including round breaks. Enter fixed pairs and agree on the scoring convention. Leave a clear changeover between matches. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 200분 운영 예시입니다. 고정된 조와 점수 방식을 정하세요. 경기 사이 교대 시간을 분명히 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合15分、休憩込み200分の計画例。 固定ペアと得点方式を決めます。試合間の交代時間を確保しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 200 minutos con pausas. Introduce parejas fijas y acuerda la puntuación. Deja tiempo para cambiar de jugadores. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 200,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "cornhole-pairs-8-league",
+    "title": [
+      "Cornhole pairs · 8 round robin",
+      "콘홀 복식 모임 · 8 풀리그",
+      "コーンホールペア戦 · 8 総当たり",
+      "Parejas de cornhole · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 15-minute matches, 240 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 240분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合15分、休憩込み240分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 240 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 15-minute matches, 240 minutes including round breaks. Enter fixed pairs and agree on the scoring convention. Leave a clear changeover between matches. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 240분 운영 예시입니다. 고정된 조와 점수 방식을 정하세요. 경기 사이 교대 시간을 분명히 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合15分、休憩込み240分の計画例。 固定ペアと得点方式を決めます。試合間の交代時間を確保しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 240 minutos con pausas. Introduce parejas fijas y acuerda la puntuación. Deja tiempo para cambiar de jugadores. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 240,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "cornhole-pairs-12-league",
+    "title": [
+      "Cornhole pairs · 12 round robin",
+      "콘홀 복식 모임 · 12 풀리그",
+      "コーンホールペア戦 · 12 総当たり",
+      "Parejas de cornhole · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 15-minute matches, 545 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 545분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合15分、休憩込み545分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 545 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 15-minute matches, 545 minutes including round breaks. Enter fixed pairs and agree on the scoring convention. Leave a clear changeover between matches. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 15분, 라운드 휴식 포함 545분 운영 예시입니다. 고정된 조와 점수 방식을 정하세요. 경기 사이 교대 시간을 분명히 두세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合15分、休憩込み545分の計画例。 固定ペアと得点方式を決めます。試合間の交代時間を確保しましょう。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 15 minutos y 545 minutos con pausas. Introduce parejas fijas y acuerda la puntuación. Deja tiempo para cambiar de jugadores. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 15,
+      "breakMinutes": 5,
+      "totalMinutes": 545,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "trivia-duel-16-knockout",
+    "title": [
+      "Trivia team duel · 16 knockout",
+      "상식 퀴즈 팀 대결 · 16 토너먼트",
+      "クイズチーム対戦 · 16 勝ち抜き戦",
+      "Duelo de equipos de preguntas · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 12-minute matches, 111 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 111분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合12分、休憩込み111分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 111 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 12-minute matches, 111 minutes including round breaks. Use equally sized question sets for each match. Announce the tie question procedure before the first round. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 111분 운영 예시입니다. 경기마다 같은 분량의 문제를 사용하세요. 첫 라운드 전에 동점 추가 문제 방식을 안내하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合12分、休憩込み111分の計画例。 各試合の問題数をそろえます。最初のラウンド前に同点時の追加問題の扱いを説明します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 111 minutos con pausas. Usa igual número de preguntas por partido. Anuncia el procedimiento de desempate antes de empezar. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 111,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "trivia-duel-24-knockout",
+    "title": [
+      "Trivia team duel · 24 knockout",
+      "상식 퀴즈 팀 대결 · 24 토너먼트",
+      "クイズチーム対戦 · 24 勝ち抜き戦",
+      "Duelo de equipos de preguntas · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 12-minute matches, 164 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 164분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合12分、休憩込み164分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 164 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 12-minute matches, 164 minutes including round breaks. Use equally sized question sets for each match. Announce the tie question procedure before the first round. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 164분 운영 예시입니다. 경기마다 같은 분량의 문제를 사용하세요. 첫 라운드 전에 동점 추가 문제 방식을 안내하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合12分、休憩込み164分の計画例。 各試合の問題数をそろえます。最初のラウンド前に同点時の追加問題の扱いを説明します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 164 minutos con pausas. Usa igual número de preguntas por partido. Anuncia el procedimiento de desempate antes de empezar. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 164,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "trivia-duel-8-league",
+    "title": [
+      "Trivia team duel · 8 round robin",
+      "상식 퀴즈 팀 대결 · 8 풀리그",
+      "クイズチーム対戦 · 8 総当たり",
+      "Duelo de equipos de preguntas · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 12-minute matches, 198 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 198분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合12分、休憩込み198分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 198 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 12-minute matches, 198 minutes including round breaks. Use equally sized question sets for each match. Announce the tie question procedure before the first round. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 198분 운영 예시입니다. 경기마다 같은 분량의 문제를 사용하세요. 첫 라운드 전에 동점 추가 문제 방식을 안내하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合12分、休憩込み198分の計画例。 各試合の問題数をそろえます。最初のラウンド前に同点時の追加問題の扱いを説明します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 198 minutos con pausas. Usa igual número de preguntas por partido. Anuncia el procedimiento de desempate antes de empezar. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 198,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "trivia-duel-12-league",
+    "title": [
+      "Trivia team duel · 12 round robin",
+      "상식 퀴즈 팀 대결 · 12 풀리그",
+      "クイズチーム対戦 · 12 総当たり",
+      "Duelo de equipos de preguntas · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 12-minute matches, 446 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 446분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合12分、休憩込み446分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 446 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 12-minute matches, 446 minutes including round breaks. Use equally sized question sets for each match. Announce the tie question procedure before the first round. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 12분, 라운드 휴식 포함 446분 운영 예시입니다. 경기마다 같은 분량의 문제를 사용하세요. 첫 라운드 전에 동점 추가 문제 방식을 안내하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合12分、休憩込み446分の計画例。 各試合の問題数をそろえます。最初のラウンド前に同点時の追加問題の扱いを説明します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 12 minutos y 446 minutos con pausas. Usa igual número de preguntas por partido. Anuncia el procedimiento de desempate antes de empezar. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 12,
+      "breakMinutes": 5,
+      "totalMinutes": 446,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "puzzle-duel-16-knockout",
+    "title": [
+      "Puzzle team duel · 16 knockout",
+      "퍼즐 팀 대결 · 16 토너먼트",
+      "パズルチーム対戦 · 16 勝ち抜き戦",
+      "Duelo de equipos de puzles · 16 eliminación"
+    ],
+    "desc": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 20-minute matches, 175 minutes including round breaks.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 175분 운영 예시입니다.",
+      "4ラウンドで15試合。会場2面、1試合20分、休憩込み175分の計画例。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 175 minutos con pausas."
+    ],
+    "guide": [
+      "15 matches in 4 rounds. Example: 2 playing areas, 20-minute matches, 175 minutes including round breaks. Give teams equivalent puzzle sets and the same time limit. Record an agreed numeric result rather than private answer sheets. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "4라운드 총 15경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 175분 운영 예시입니다. 같은 난도의 퍼즐과 같은 제한 시간을 제공하세요. 개인 답안지 대신 합의한 숫자 결과를 기록하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "4ラウンドで15試合。会場2面、1試合20分、休憩込み175分の計画例。 同程度のパズルと同じ制限時間を用意します。個人の解答用紙ではなく、合意した数値結果を記録します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "15 partidos en 4 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 175 minutos con pausas. Ofrece puzles equivalentes y el mismo tiempo. Registra un resultado numérico acordado, no hojas privadas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 16,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 175,
+      "roundMatches": [
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "puzzle-duel-24-knockout",
+    "title": [
+      "Puzzle team duel · 24 knockout",
+      "퍼즐 팀 대결 · 24 토너먼트",
+      "パズルチーム対戦 · 24 勝ち抜き戦",
+      "Duelo de equipos de puzles · 24 eliminación"
+    ],
+    "desc": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 20-minute matches, 260 minutes including round breaks.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 260분 운영 예시입니다.",
+      "5ラウンドで23試合。会場2面、1試合20分、休憩込み260分の計画例。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 260 minutos con pausas."
+    ],
+    "guide": [
+      "23 matches in 5 rounds. Example: 2 playing areas, 20-minute matches, 260 minutes including round breaks. Give teams equivalent puzzle sets and the same time limit. Record an agreed numeric result rather than private answer sheets. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "5라운드 총 23경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 260분 운영 예시입니다. 같은 난도의 퍼즐과 같은 제한 시간을 제공하세요. 개인 답안지 대신 합의한 숫자 결과를 기록하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "5ラウンドで23試合。会場2面、1試合20分、休憩込み260分の計画例。 同程度のパズルと同じ制限時間を用意します。個人の解答用紙ではなく、合意した数値結果を記録します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "23 partidos en 5 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 260 minutos con pausas. Ofrece puzles equivalentes y el mismo tiempo. Registra un resultado numérico acordado, no hojas privadas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "knockout",
+    "count": 24,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 260,
+      "roundMatches": [
+        8,
+        8,
+        4,
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slug": "puzzle-duel-8-league",
+    "title": [
+      "Puzzle team duel · 8 round robin",
+      "퍼즐 팀 대결 · 8 풀리그",
+      "パズルチーム対戦 · 8 総当たり",
+      "Duelo de equipos de puzles · 8 todos contra todos"
+    ],
+    "desc": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 20-minute matches, 310 minutes including round breaks.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 310분 운영 예시입니다.",
+      "7ラウンドで28試合。会場2面、1試合20分、休憩込み310分の計画例。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 310 minutos con pausas."
+    ],
+    "guide": [
+      "28 matches in 7 rounds. Example: 2 playing areas, 20-minute matches, 310 minutes including round breaks. Give teams equivalent puzzle sets and the same time limit. Record an agreed numeric result rather than private answer sheets. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "7라운드 총 28경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 310분 운영 예시입니다. 같은 난도의 퍼즐과 같은 제한 시간을 제공하세요. 개인 답안지 대신 합의한 숫자 결과를 기록하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "7ラウンドで28試合。会場2面、1試合20分、休憩込み310分の計画例。 同程度のパズルと同じ制限時間を用意します。個人の解答用紙ではなく、合意した数値結果を記録します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "28 partidos en 7 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 310 minutos con pausas. Ofrece puzles equivalentes y el mismo tiempo. Registra un resultado numérico acordado, no hojas privadas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 8,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 310,
+      "roundMatches": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "puzzle-duel-12-league",
+    "title": [
+      "Puzzle team duel · 12 round robin",
+      "퍼즐 팀 대결 · 12 풀리그",
+      "パズルチーム対戦 · 12 総当たり",
+      "Duelo de equipos de puzles · 12 todos contra todos"
+    ],
+    "desc": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 20-minute matches, 710 minutes including round breaks.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 710분 운영 예시입니다.",
+      "11ラウンドで66試合。会場2面、1試合20分、休憩込み710分の計画例。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 710 minutos con pausas."
+    ],
+    "guide": [
+      "66 matches in 11 rounds. Example: 2 playing areas, 20-minute matches, 710 minutes including round breaks. Give teams equivalent puzzle sets and the same time limit. Record an agreed numeric result rather than private answer sheets. The plan assumes each round finishes before the next begins, with five-minute round breaks. Changeovers must fit within the slot. Actual durations vary. League scoring is the tool’s simple 3/1/0 system, not sport-specific official rules.",
+      "11라운드 총 66경기. 경기장 2곳, 경기당 20분, 라운드 휴식 포함 710분 운영 예시입니다. 같은 난도의 퍼즐과 같은 제한 시간을 제공하세요. 개인 답안지 대신 합의한 숫자 결과를 기록하세요. 앞 라운드가 모두 끝난 뒤 다음 라운드를 시작하고 라운드 사이 5분을 쉽니다. 교대 시간은 경기 슬롯에 포함해야 하며 실제 소요 시간은 달라집니다. 리그는 도구의 단순 3/1/0 승점이며 종목별 공식 규정이 아닙니다.",
+      "11ラウンドで66試合。会場2面、1試合20分、休憩込み710分の計画例。 同程度のパズルと同じ制限時間を用意します。個人の解答用紙ではなく、合意した数値結果を記録します。 前のラウンド終了後に次へ進み、間に5分休憩します。交代時間も枠内に含めます。実際の時間は変わります。リーグの勝点は簡易的な3/1/0で、競技別の公式規則ではありません。",
+      "66 partidos en 11 rondas. Ejemplo: 2 zonas, partidos de 20 minutos y 710 minutos con pausas. Ofrece puzles equivalentes y el mismo tiempo. Registra un resultado numérico acordado, no hojas privadas. Cada ronda termina antes de iniciar la siguiente, con cinco minutos de pausa. El cambio debe caber en el turno; la duración real varía. La liga usa el sistema simple 3/1/0 de la herramienta, no reglas oficiales del deporte."
+    ],
+    "mode": "league",
+    "count": 12,
+    "plan": {
+      "courts": 2,
+      "matchMinutes": 20,
+      "breakMinutes": 5,
+      "totalMinutes": 710,
+      "roundMatches": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
       ]
     }
   }
