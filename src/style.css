@@ -159,6 +159,7 @@ select:focus {
   display: flex;
   align-items: center;
   gap: 10px;
+  min-height: 44px;
 }
 .brand-mark {
   width: 30px;
@@ -177,6 +178,12 @@ select:focus {
   gap: 28px;
   font-size: 0.88rem;
   font-weight: 600;
+}
+.topbar nav a,
+.site-footer nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
 }
 .locale {
   background: transparent;
@@ -582,6 +589,67 @@ select:focus {
 .consent .actions {
   margin-top: 15px;
 }
+.consent h2 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+}
+.privacy-options {
+  display: grid;
+  gap: 8px;
+  margin: 16px 0 8px;
+  padding: 0;
+  border: 0;
+}
+.privacy-options legend {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.privacy-choice {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  min-height: 64px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.privacy-choice input {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  accent-color: var(--accent);
+}
+.privacy-choice span {
+  display: grid;
+  gap: 2px;
+}
+.privacy-choice small {
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.4;
+}
+.privacy-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 12px;
+}
+.privacy-actions button {
+  min-height: 44px;
+}
+.privacy-actions [data-consent-save] {
+  grid-column: 1 / -1;
+}
+.privacy-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+.privacy-status {
+  margin: 0;
+}
 .article {
   max-width: 800px;
   padding: 40px 0;
@@ -818,7 +886,7 @@ details textarea {
   background: #f6f7fc;
   border: 0;
   appearance: textfield;
-  min-height: 34px;
+  min-height: 44px;
 }
 .player.won {
   color: var(--accent);
@@ -832,7 +900,7 @@ details textarea {
   color: var(--accent);
   font-size: 0.68rem;
   padding: 7px;
-  min-height: 36px;
+  min-height: 44px;
   border-top: 1px solid var(--line);
 }
 .table-wrap {
@@ -1022,6 +1090,8 @@ caption {
     left: 12px;
     right: 12px;
     padding: 18px;
+    max-height: calc(100dvh - 24px);
+    overflow-y: auto;
   }
   .section-title h2 {
     font-size: 1.3rem;
@@ -1161,4 +1231,22 @@ caption {
   .stage {
     padding: 24px;
   }
+}
+
+/* Keep choice actions visible while long consent copy scrolls on small screens. */
+.consent {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.privacy-content {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.privacy-actions {
+  flex: 0 0 auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  background: var(--paper);
 }

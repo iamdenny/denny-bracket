@@ -55,10 +55,10 @@ const rows = {
   ],
   skip: ["Skip to content", "본문으로 이동", "本文へ移動", "Ir al contenido"],
   settings: [
-    "Analytics settings",
-    "분석 설정",
-    "アクセス解析設定",
-    "Preferencias de analítica",
+    "Privacy settings",
+    "개인정보 설정",
+    "プライバシー設定",
+    "Privacidad",
   ],
   consent: [
     "Help us make this better? Optional Google Analytics measures page paths and feature use. Your names, typing text and scores are never sent.",

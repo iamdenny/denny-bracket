@@ -1,19 +1,9 @@
+import { getPreferences } from "./consent.js";
 const config = JSON.parse(document.querySelector("#config").textContent),
   id = config.measurementId,
-  key = "denny-" + config.kind + "-analytics-v1",
-  panel = document.querySelector("#consent");
-let choice = null,
+  saved = getPreferences();
+let choice = saved?.analytics === true ? "granted" : saved?.analytics === false ? "denied" : null,
   loaded = false;
-try {
-  const c = JSON.parse(localStorage.getItem(key));
-  if (
-    c &&
-    ["granted", "denied"].includes(c.choice) &&
-    c.at <= Date.now() &&
-    Date.now() - c.at < 180 * 864e5
-  )
-    choice = c.choice;
-} catch {}
 const valid =
   /^G-[A-Z0-9]{6,15}$/.test(id || "") && location.hostname === config.domain;
 const send = function () {
@@ -77,22 +67,19 @@ window.dennyTrack = (event) => {
       page_location: location.origin + location.pathname,
     });
 };
-document.querySelector("#analytics-settings").onclick = () => {
-  panel.hidden = false;
-  panel.querySelector("button").focus();
-};
-for (const b of document.querySelectorAll("[data-consent]"))
-  b.onclick = () => {
-    const wasLoaded = loaded;
-    choice = b.dataset.consent;
-    try {
-      localStorage.setItem(key, JSON.stringify({ choice, at: Date.now() }));
-    } catch {}
-    panel.hidden = true;
-    apply();
-    if (wasLoaded && choice === "denied") location.reload();
-  };
-if (valid && choice === null) panel.hidden = false;
+window.addEventListener("denny-consent-changed", (event) => {
+  const previous = choice;
+  choice = event.detail.analytics ? "granted" : "denied";
+  apply();
+  if (loaded && previous === "granted" && choice !== "granted") {
+    send("consent", "update", {
+      analytics_storage: "denied",
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+    });
+  }
+});
 apply();
 
 document.addEventListener("click",event=>{if(event.target.closest("[data-discovery-link]")) window.dennyTrack("select_discovery");});
