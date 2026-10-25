@@ -1,24 +1,35 @@
 # Denny Bracket
 
-https://bracket.iamdenny.com
+Production: https://bracket.iamdenny.com/en/
 
-Node 22+, zero runtime dependencies. `npm run verify`; `PORT=4350 npm run dev`. Four languages, static searchable pages, browser-local processing and explicit snapshot sharing.
+Knockout and round-robin tournaments, score entry, standings, advancement, print/export and local saved sessions. Undo/redo retains up to 40 changes during the visit; reload clears history. Unfinished-match filtering changes the view only, and progress excludes byes.
 
-## Deploy
-GitHub Pages via Actions. CNAME `bracket.iamdenny.com` → `iamdenny.github.io`. Verify `/release.json` against the deployment commit.
+## Development
 
-## Analytics and revenue
-GA4 loads only on the production domain after visitor opt-in. No input text, participant names, scores or URL fragments are sent. AdSense publisher metadata and ads.txt are present; ad serving requires provider approval. Site-specific Adsterra 300×250 banners load after separate advertising permission. Normal-flow affiliate banners link to Coupang with commission disclosures. Top, bottom and both desktop rails promote Tools, Games, MODU TT and Print; mobile rails stack below content. Category blocking and actual revenue require provider evidence.
+Node 22+, native ES modules, no runtime dependencies. Run `npm run verify` for tests, static build and SEO/link audits. Run `npm run dev` (default port 4350); set `PORT` to use another port. Generated output is `dist/`.
 
-## Sharing
-Links encode a snapshot; recipients can see its contents. They are not synchronized or authenticated. Local records are not verified rankings.
+## Content and languages
 
-Coupang channel registration is pending: profile read/update failed in the provider UI. Affiliate banners remain disabled until persistent registration is verified (`coupang.channelRegistered`).
+The reviewed release contains **300 distinct activities** and **1220 indexable pages**. English starts at `/en/`; Korean, Japanese and Spanish use `/ko/`, `/ja/` and `/es/`. Translation variants are pages, not additional activities. Existing routes and IDs must be preserved. Historical expansion documents record earlier release counts.
 
-Official network banner artwork is copied unchanged from MODU TT `/brand/`, Tools `/ko/promo/`, and Games `/ko/promote/`. Source URLs are recorded in `public/banners/sources.json`. Desktop rails use 160×600 assets; mobile uses the official 320×100 variants.
+## Privacy, analytics and revenue
 
-## Workspace features
+`src/consent.js` provides one shared panel. The initial allow/reject actions save immediately; individual purpose controls and the save action appear only after customization. Advertising and analytics remain separate choices, shared across the six participating Denny services using an `iamdenny.com` cookie for up to 180 days.
 
-Undo/redo covers score saves, round advancement, bracket creation and saved-session restores, retaining up to 40 changes in memory during this visit. Reload clears undo history. The unfinished-match filter is view-only; exports and print include all matches. Progress excludes byes and counts all required tournament matches.
+GA4 is configured in `site.json` and loads only on the production hostname after analytics permission. Adsterra uses a site-specific unit after advertising permission and provider/configuration checks. Inputs, answers and URL query/fragment payloads are excluded from the curated analytics events. Coupang remains disabled by `coupang.channelRegistered: false`; verify persistent provider registration before enabling it.
 
-Focus mode expands the tool and hides surrounding promotional content until Exit focus or Escape. Default banner placements remain available. Controls and feedback are translated into English, Korean, Japanese and Spanish.
+Official promotion artwork occupies the top, bottom and desktop rails. On narrow screens the top banners become a horizontally scrollable row; focus mode hides surrounding promotions. Provider approval, ad category filtering, actual ad fill, GA receipt and revenue require separate evidence.
+
+## Deployment
+
+Pushes to `main` run `.github/workflows/deploy.yml`: verify, upload `dist`, deploy GitHub Pages, then attempt IndexNow submission. Pull requests verify without deployment. DNS targets `iamdenny.github.io` with the service CNAME. Compare the public `/release.json` commit with the intended revision; a successful build alone is not deployment proof. See the operations guide for rollback and provider checks.
+
+## Documentation
+
+- [Design and UX](DESIGN.md)
+- [Operations and release checks](docs/operations.md)
+- [Source map](docs/codemap.md)
+- [ADR 0001: shared privacy choices](docs/adr/0001-shared-privacy-choices.md)
+- [ADR 0002: static content and versioned releases](docs/adr/0002-static-content-and-releases.md)
+- [content-expansion-200](docs/content-expansion-200.md)
+- [content-expansion-300](docs/content-expansion-300.md)

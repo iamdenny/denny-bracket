@@ -1,4 +1,13 @@
+---
+title: "Content expansion — 23 October 2026"
+summary: "Historical release record; consult operations for the current implementation"
+read_when:
+  - Maintaining this service or reviewing its implementation
+---
+
 # Content expansion — 23 October 2026
+
+> Historical record: counts, layouts and provider observations below describe that release. See [current operations](operations.md) for the reviewed implementation and outstanding verification.
 
 25 club contexts × 4 event profiles (8/12-entry knockout, 6/10-entry round robin). Each includes a round-by-round planning table, explicit timing assumptions and context-specific operating notes. These are not official sport regulations.
 
